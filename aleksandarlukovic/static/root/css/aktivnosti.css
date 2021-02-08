@@ -1,0 +1,21 @@
+.a0
+{
+    color: white;
+    width: 23em;
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 1em;
+}
+
+.a1
+{
+    color: white;
+    width: 23em;
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.a0 {background-color: yellowgreen; }
+.a1 {background-color: rgb(99, 138, 21); }

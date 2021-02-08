@@ -18,6 +18,11 @@ from django.urls import path, include
 from . import linkovi
 urlpatterns = [
     path('admin/', admin.site.urls),
+    #root
     path('', linkovi.indexRoot, name="indexRoot"),
+    path('root/aktivnosti', linkovi.aktivnostiRoot, name="aktivnostiRoot"),
     path('root/opis', linkovi.opisRoot, name="opisRoot")
+    #profil
+    #telekomunikacije
+    #informatika
 ]
