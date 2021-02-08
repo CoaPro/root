@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+*
+{
+    margin: 0;
+    padding: 0; 
+    font-family: "Lato", sans-serif;
+}
+
+.teloO
+{
+    width: 80%; 
+    min-height: 80vh;
+    margin: 0 auto;
+    color: white;
+    background-color: #8071d4;  
+    text-align: center; 
+    display: grid;  
+    grid-template-columns: 30% 30%;
+    background-color: rgb(98, 150, 219); 
+    -webkit-box-shadow: 2px -1px 33px -20px rgba(0,0,0,0.67);
+    justify-content: center; 
+    padding-top: 2em; 
+    padding-bottom: 2em; 
+}
+
+@media screen and (max-width: 720px)
+{
+    .telo0
+    {
+        width: 90vw; 
+        grid-template-columns: 40% 40%; 
+    }
+
+}
