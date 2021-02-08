@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+*
+{
+    font-family: 'Lato', sans-serif; 
+}
+
+.teloBM
+{
+    min-height: 45vh; 
+}
+
+.bmMeni
+{
+    padding-top: 2rem;
+    width: 14em;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.bmMeni a
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.bmMeni li
+{
+    padding: 0.7em; 
+    list-style: none;
+    background-color: rgb(128, 202, 31); 
+    color: white; 
+}
+
+.bmMeni li:hover
+{
+    opacity: 0.8;
+}
+
+.containerBez
+{
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 1em; 
+}
+
+.itemBez
+{
+    margin: 0 auto; 
+    width: 55em; 
+}
+
+.containerBez img
+{
+    width: 100%; 
+    margin: 0 auto; 
+    height: auto; 
+    min-width: auto; 
+    min-height: auto;
+}
+
+@media screen and (max-width:1000px)
+{
+    .itemBez
+    {
+        width: 80%;
+    }
+    .containerBez img{
+
+        
+    }
+
+
+}

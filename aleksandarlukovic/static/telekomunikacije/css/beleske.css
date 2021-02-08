@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+*
+{
+    font-family: 'Lato', sans-serif; 
+}
+
+body
+{
+    align-items: center; 
+    display: flex;
+    flex-direction: column; 
+}
+
+ul li
+{
+    border: 2px solid black; 
+    border-radius: 10px;
+    padding: 0.4em; 
+    list-style: none; 
+    margin-bottom: 0.4em; 
+    position: relative; 
+    cursor: pointer; 
+}
+
+ul li span
+{
+    position: absolute; 
+    top: 0;
+    right: 0;
+    color: white;
+    width: 3em; 
+    padding: 0.4em;
+    text-align: center; 
+    background-color: tomato; 
+    border-radius: 10px;
+    
+}

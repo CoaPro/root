@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saobraćajni fakultet | Osnovne akademske studije </title> 
+    <link rel="stylesheet" href="css/osnovne.css">
+    <link rel="stylesheet" href="css/zaglavlje.css">
+    <link rel="stylesheet" href="css/zacelje.css">
+    <link rel="shortcut icon" href="ico/Coa Pro 2.3.2 Лого 2021-круг.png">
+</head>
+<body onload="faksDef()">
+
+
+    <div class="zaglavlje"> 
+        <p id="sf_t">Aleksandar Luković | Osnovne akademske studije </p>
+        
+        <div class="navbar">
+
+            <div class="navbar_item"><a href="index.html" target="_blank">Početna</a></div> 
+            <div class="navbar_item"><a href="osnovne.html" target="_blank">Osnovne studije</a></div> 
+            <div class="navbar_item"><a href="master.html" target="_blank">Master studije</a></div> 
+            <div class="navbar_item"><a href="master.html" target="_blank">Predmeti na masteru</a></div> 
+            <div class="navbar_item"><a href="master.html" target="_blank">Završeni radovi na masteru</a></div> 
+            <div class="navbar_item"><a href="https://coapro.github.io/aleksandar/sr.html" target="_blank">O meni</a></div> 
+            <div class="navbar_item"><a href="https://github.com/CoaPro" target="_blank">Veb projekti</a></div> 
+            <div class="navbar_item"><a href="https://coapro.github.io/aleksandar/kontakt.html" target="_blank">Kontakt</a></div> 
+ 
+         </div>
+
+    </div> 
+
+
+    <div class="telo_oas">
+<!--
+    <ul class="predmeti"> 
+        
+        <li>
+            Prva godina 
+
+            <ul>
+
+                <li>Matematika 1 </li>
+                <li>Fizika  </li> 
+                <li>Engleski jezik 1</li> 
+                <li>Osnovi programiranja </li>
+                <li><br/></li> 
+                <li>Matematika 2</li> 
+                <li>Engleski jezik 2</li>
+                <li>Inženjersko crtanje primenom računara</li>
+                <li>Programiranje </li>
+            </ul>
+        </li> 
+
+        <li>
+            Druga godina 
+            <ul>
+
+                <li>Matematika 3</li>
+                <li>Elektrotehnika</li>
+                <li>Verovatnoća i statistika</li>
+                <li>Engleski jezik 3</li>
+                <li><br/></li>
+                <li>Osnovi elektronike</li>
+                <li>Baze podataka</li>
+                <li>Programski jezik</li>
+                <li>Upravljanje sistemima</li>
+                <li>Operaciona istraživanja</li>
+
+            </ul>
+
+        </li> 
+
+        <li>
+            Treća godina 
+
+            <ul>
+
+                <li>Osnovi telekomunikacija 1 </li> 
+                <li>Osnovi telekomunikacionog saobraćaja </li> 
+                <li>Veštačka inteligenicja </li> 
+                <li>Telekomunikaciona elektronika </li>
+                <li><br/></li>
+                <li>Osnovi telekomunikacija 2 </li> 
+                <li>Računarske mreže</li>
+                <li>Komutacioni sistemi</li> 
+                <li>Telekomunikacioni softver</li>
+
+            </ul>
+
+        </li>
+
+        <li>
+            Četvrta godina 
+
+            <ul>
+
+                <li>Osnovi radio komunikacija </li>
+                <li>Saobraćaj u komunikacionim mrežama </li> 
+                <li>Statistička teorija telekomunikacija</li>
+                <li>Telekomunikacioni sistemi</li> 
+                <li> <br/> </li> 
+                <li>Bežični komunikacioni sistemi</li> 
+                <li>Multimedijalne komunikacije</li> 
+                <li>Novi komunikacioni servisi</li>
+                <li>Optički komunikacioni sistemi</li>
+                <li>Završni rad</li> 
+            </ul>
+
+        </li>
+
+
+    </ul>
+-->
+
+    <div class="godina">
+
+        <div class="godina_">
+            <li id="klik1" onclick="prvaGodina()"><a onclick="prvaGodina()">Prva</a></li>
+        </div>
+
+        <div class="godina_">
+            <li onclick="drugaGodina()"><a onclick="drugaGodina()">Druga</a></li>
+        </div>
+
+        <div class="godina_">
+            <li onclick="trecaGodina()"><a  onclick="trecaGodina()" >Treća</a></li>
+        </div>
+
+        <div class="godina_">
+        <li onclick="cetvrtaGodina()"><a onclick="cetvrtaGodina()">Četvrta</a></li>
+        </div>
+
+    </div>
+
+
+    <div class="slika_oas">
+
+        <div class="slika_oas_i">
+
+        <img src="img/osnovne_studije.png" alt="Osnovne akademske studije">
+
+        </div>
+
+        <div class="slika_oas_i">
+
+        <p>Omiljeni predmeti sa osnovnih studija telekomunikacija</p>
+
+        </div>
+
+    </div>
+    
+
+    <div class="faks">
+        <p id="g_opis">Prva godina </p>
+        <a id="p1" href=""></a>
+        <a id="p2" href=""></a>
+        <a id="p3" href=""></a>
+        <a id="p4" href=""></a>
+        <br/>
+        <a id="p5" href=""></a>
+        <a id="p6" href=""></a>
+        <a id="p7" href=""></a>
+        <a id="p8" href=""></a>
+        <a id="p9" href=""></a>
+    </div>
+
+    <div class="reset_oas" onclick="faksDef()">
+        <p>Resetuj</p>
+    </div>
+
+    <!-- 
+    <div class="izbor_predmeta">
+
+        <label for="izbor_godine">Izaberi godinu: </label>
+        
+        <select name="izbor_godine" id="izbor_godine" onchange="prikaziGodinu()">
+            <option>Godina</option>
+            <option value="prva">Prva</option>
+            <option value="druga">Druga</option>
+            <option value="treca">Treća</option>
+            <option value="cetvrta">Četvrta</option>
+
+        </select>
+    </div>
+    -->
+
+    <div class="osnovneMeni">
+
+        <a href="master.html"><li>Klik za master studije</li></a>
+        <a href="index.html"><li>Povratak na početnu stranicu</li></a>
+        <!-- <a><li></li></a>*/ -->
+        
+     </div>
+
+    </div>
+
+    <div class="zacelje"> 
+        
+        <div class="autorskaPrava">
+
+            © 2021 Aleksandar Luković | Sva prava zadržana 
+
+        </div>
+
+        <div class="zacelje_c">
+
+            <div class="zacelje_i">
+                <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="ico/linkedin.svg" title="Aleksandar Luković | LinkedIn"></img> </a>
+            </div>
+
+            <div class="zacelje_i">
+                <a href="https://github.com/CoaPro" target="_blank"><img src="ico/github.svg" title="Aleksandar Luković | GitHub"></img> </a>
+            </div>
+
+            <div class="zacelje_i">
+                <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="ico/facebook.svg" title="Aleksandar Luković | Facebook"></img> </a> 
+            </div>
+
+            <div class="zacelje_i">
+                <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="ico/instagram.svg" title="Aleksandar Luković | Instagram"></img> </a>
+            </div>
+
+            <div class="zacelje_i">
+                <a href="https://www.youtube.com/CoaPro/" target="_blank"><img src="ico/youtube.svg" title="Aleksandar Luković | YouTube"></img> </a>
+            </div>
+
+        </div>
+    </div> 
+
+    <script src="js/osnovne.js"></script>
+</body>
+</html>

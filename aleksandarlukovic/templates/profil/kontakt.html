@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aleksandar Luković">
+    <title>Aleksandar Luković | Kontakt </title> 
+
+    <link rel="stylesheet" href="./css/stil-zaglavlje.css"> 
+    <link rel="stylesheet" href="./css/stil-kontakt.css"> 
+    <link rel="stylesheet" href="./css/stil-futer.css"> 
+    <link rel="shortcut icon" href="./img/Slika_CV_krug.png"> 
+</head>
+<body>
+  
+<div class="zaglavlje"> 
+
+    <ul class="jezik"> 
+        <li><a href="kontakt.html">SRB</a></li> 
+        <li><a href="contact.html">ENG</a></li> 
+    </ul> 
+
+
+    <header>
+        <img class="logo" src="./img/Slika_CV_krug.png" alt="logo">
+
+        <nav>
+            <ul class="nav_bar">
+                <li><a href="sr.html">Početna</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="fakultet.html">Fakultet</a></li>
+                <li><a href="online_kursevi.html">Online kursevi i sertifikati</a></li>
+                <li><a href="galerija.html">Galerija</a></li> 
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <a class="btn" href="javascript:history.back()"><button id="nazad" >Nazad</button></a>
+
+    </header>
+</div> 
+
+    <div class="omotac">
+    
+        <section>
+            
+            <div class="email_f">
+
+                <form action="https://formspree.io/f/meqppwee" method="POST" id="my-form"> 
+
+                    <div class="form-group">
+
+                        <label for="ime">Ime</label>
+                        <input type="text" id="ime" name="ime"> 
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="prezime">Prezime</label>
+                        <input type="text" id="prezime" name="prezime"> 
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email"> 
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="poruka">Poruka</label>
+                    <textarea name="poruka" id="poruka" cols="30" rows="10"></textarea>
+
+                    </div>
+
+                    <button id="btn_c" type="submit">Pošalji</button>
+
+                </form>    
+
+            </div>
+
+            <div id="status"> </div>
+
+        </section>
+        
+        <script src="./js/kontakt.js"></script>
+
+    </div>
+
+</body>
+
+        <footer id="futer_t">
+            <div class="futer_t_ikonice">
+                <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="./icon/linkedin.svg" title="LinkedIn"></img> </a>
+                <a href="https://github.com/CoaPro" target="_blank"><img src="./icon/github.svg" title="GitHub"></img> </a>
+                <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="./icon/facebook.svg" title="Facebook"></img> </a> 
+                <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="./icon/instagram.svg" title="Instagram"></img> </a>
+            </div>
+        </footer>
+
+</html>

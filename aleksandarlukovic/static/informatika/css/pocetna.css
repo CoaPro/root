@@ -1,0 +1,270 @@
+.w
+{
+  margin: 0 auto 0 auto;
+  width: 80%;
+}
+
+.header
+{
+  margin: 0;
+  padding-bottom: 3em;
+  background-color: rgb(85, 161, 19);
+  color: #ffff;
+  width: auto;
+
+}
+
+#search
+{
+  float: right;
+  margin-top: 0.25em;
+  margin-right: 0.25em;
+  border: none;
+  padding: 0.5em;
+  font-family: Calibri;
+  font-size: 110%;
+  color: rgb(85, 161, 19);
+  border-radius: 0 0.42em 0.42em 0;
+}
+
+#s_img
+{
+  width: 3.21em;
+  float: right;
+  margin-top: 0.27em;
+  margin-right: -0.23em;
+  border-radius: 0.42em 0 0 0.42em;
+}
+
+.nav
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+.nav li
+{
+  float: left;
+  width: 8em;
+  text-align: center;
+}
+
+.nav a:link, .nav a:visited
+{
+  text-decoration: none;
+  color: #ffff;
+  display: block;
+  padding: 0.9em;
+  font-family: Calibri;
+  font-weight: lighter;
+  font-size: 100%;
+}
+
+.nav a:hover
+{
+  background-color: rgb(67, 176, 50);
+}
+
+.main
+{
+  margin: 0;
+  padding: 0;
+}
+
+.main img
+{
+  width: 500px;
+  float: left;
+  padding-top: 5em;
+}
+
+.aside
+ {
+   float: right;
+   color: rgb(8, 169, 136);
+   font-family: Calibri;
+   width: 450px;
+}
+
+.aside h2
+{
+  font-size: 180%;
+  float: right;
+  margin-right: 2em;
+  text-align: center;
+}
+
+.aside p
+{
+  color: rgb(16, 107, 97);
+  text-align: center;
+  font-weight: lighter;
+  font-size: 150%;
+}
+
+.aside h2
+{
+  margin-left: 4em;
+  font-weight: normal;
+  padding-top: 1em;
+  color: rgb(15, 122, 92);
+}
+.aside h3
+
+{
+  color: rgb(16, 124, 97);
+  border: 1px solid rgb(16, 124, 97);
+  width: 4em;
+  text-align: center;
+  padding: 0.5em;
+  margin-left: 10em;
+  border-radius: 0.5em;
+  font-weight: lighter;
+}
+
+.aside h3:hover
+{
+  color: #ffff;
+  background-color: rgb(16, 124, 97);
+  font-weight: lighter;
+}
+
+
+.zelena
+{
+  clear: both;
+  background-color: rgb(48,195,44);
+  color: #ffff;
+  width: auto;
+  height: 30em;
+  padding: 0;
+  margin: 0;
+}
+
+.zelena h2
+{
+  font-family: Calibri;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 9.2em;
+}
+
+.zelena img
+{
+width: 30em;
+float: right;
+margin: 0;
+padding: 0;
+}
+
+.email
+{
+  color: #000000;
+  text-decoration: none;
+}
+
+.plava
+{
+  background-color: rgb(58, 65, 139) ;
+  color: #ffffff;
+  width: auto;
+  height: 15em;
+  margin: 0;
+  padding-top: 1em;
+}
+
+.plava h3
+{
+  text-align: center;
+  padding-top: 5em;
+  font-family: Calibri;
+  font-weight: lighter;
+}
+
+#button2
+{
+  padding: 0;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 2em;
+  width: 4em;
+  margin-left: 33em;
+  padding: 0.5em;
+}
+
+#button2 a
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.bela
+{
+  clear: both;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial;
+  font-weight: lighter;
+  width: auto;
+  height: 30em;
+  margin: 0;
+  padding-top: 1em;
+}
+
+.bela img
+{
+  float: left;
+  width: 40em;
+}
+
+
+
+.bela h3
+{
+  color: rgb(61, 26, 126);
+  font-family: Calibri;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 11em;
+}
+
+#button3
+{
+  float: right;
+  background-color: rgb(58, 65, 139);
+  width: 5em;
+  margin-top: 3em;
+  margin-right: 16.6em;
+  text-align: center;
+  padding: 0.5em;
+  border: 1px solid #ffffff;
+  border-radius: 3em;
+}
+
+#button3 a
+{
+  text-decoration: none;
+
+  color: #ffffff;
+  font-family: Calibri;
+  font-size: 120%;
+}
+
+#footer {
+  background-color: #30772C;
+  color: #999999;
+  padding: 4.5em 0 2.5em 0 ;
+  color: #ffff;
+  text-align: center;
+  font-family: Calibri;
+}
+
+/*
+Media upiti
+*/
+
+/*
+Media upiti
+*/
