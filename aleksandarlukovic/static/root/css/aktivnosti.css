@@ -19,3 +19,12 @@
 
 .a0 {background-color: yellowgreen; }
 .a1 {background-color: rgb(99, 138, 21); }
+
+.nazadA
+{
+    margin: 0 auto; 
+    width: 12em;
+    padding: 0.4em;
+    color: white;
+    background-color: tomato;
+}
