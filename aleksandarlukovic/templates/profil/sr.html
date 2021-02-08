@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aleksandar Luković">
     <title>Aleksandar Luković | SRB </title>
-    <link rel="stylesheet" href="./css/stil-pocetna.css"> 
-    <link rel="stylesheet" href="./css/stil-zaglavlje.css">
-    <link rel="stylesheet" href="./css/stil-futer.css">
-    <link rel="shortcut icon" href="./img/Slika_CV_krug.png"> 
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'profil/css/stil-pocetna.css'%}"> 
+    <link rel="stylesheet" href="{% static 'profil/css/stil-zaglavlje.css'%}">
+    <link rel="stylesheet" href="{% static 'profil/css/stil-futer.css'%}">
+    <link rel="shortcut icon" href="{% static 'profil/img/Slika_CV_krug.png'%}"> 
 </head>
 
 <body>
@@ -80,7 +81,7 @@
 
                     <div class="tasteri">
                         <a href="./profil.html" title="Profil & CV" ><button id="btn_a">Profil</button></a>
-                        <a href="./galerija.html" title="Photoshop" ><button id="btn_b">Galerija</button></a> 
+                        <a href="{% url 'indexRoot' %}" title="Photoshop" ><button id="btn_b">Root</button></a> 
                     </div>
 
                     <div class="rad">

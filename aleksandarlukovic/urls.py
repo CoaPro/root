@@ -21,8 +21,9 @@ urlpatterns = [
     #root
     path('', linkovi.indexRoot, name="indexRoot"),
     path('root/aktivnosti', linkovi.aktivnostiRoot, name="aktivnostiRoot"),
-    path('root/opis', linkovi.opisRoot, name="opisRoot")
+    path('root/opis', linkovi.opisRoot, name="opisRoot"),
     #profil
+    path('profil/sr', linkovi.srProfil, name="srProfil")
     #telekomunikacije
     #informatika
 ]
