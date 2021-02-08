@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+*
+{
+    font-family: 'Lato', sans-serif; 
+}
+
+body
+{
+    position: relative;
+}
+.telo_bi
+{
+    min-height: 80vh; 
+}
+
+.container_bi
+{
+    display: flex; 
+    width: 82vw;
+    flex-direction: column; 
+    margin: 0 auto; 
+    border: 1px solid black; 
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.item img
+{
+    width: 100%;
+}
+/*
+.item
+{
+    margin: 0 auto; 
+    align-items: center; 
+    width: 90vw; 
+}
+
+.container_bi img
+{
+    width: 80%; 
+    margin: 0 auto;
+}
+*/
+/*
+.prikaziBI, .sakrijBI
+{
+    width: 10em;
+    margin: 0 auto;
+    color: white; 
+    text-align: center; 
+    padding: 0.3em; 
+    border-radius: 16px;
+}
+
+.prikaziBI
+{
+    background-color: yellowgreen; 
+}
+
+.sakrijBI
+{
+    background-color: tomato;
+}
+*/
+
+.prikaziSakrijBI
+{
+    text-align: center;
+}
+.prikaziSakrijBI ul
+{
+    padding: 1em; 
+}
+
+.prikaziSakrijBI li
+{
+    margin: 0 auto;
+    color: white; 
+    background-color: rgb(30, 112, 206); 
+    padding: 1em; 
+    width: 15em;
+}
+
+.prikaziSakrijBI li:hover
+{
+    opacity: 0.7;
+}
+
+.izvestajBI
+{
+    color: white;
+    background-color: orange;
+    width: 15em; 
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 42%; 
+    text-align: center; 
+} 
+
+.izvestajBI li
+{
+    
+    background-color: orange; 
+    padding: 0.5em; 
+}
+
+.izvestajBI li:hover
+{
+    opacity: 0.5;
+}

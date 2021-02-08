@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
+
+/*
+*
+{
+    font-family: 'Lato', sans-serif; 
+}
+*/
+.zaglavlje 
+{
+    background-color: #422cba; 
+    color: white; 
+    height: 15vh; 
+    border-bottom: 3px solid #0fb5df;
+    border-radius: 0 0 23px 23px; 
+    font-family: 'Catamaran', sans-serif;
+}
+
+#bel
+{
+    text-decoration: none;
+    color: white;
+    background-color: yellowgreen;
+    padding: 0.4em;
+    border-radius: 10px; 
+    margin-top: 2em;
+}
+
+#m_nazad
+{
+    color: white;
+    display: inline-block; 
+    background-color:teal; 
+    padding: 0.4em; 
+    text-decoration: none; 
+}
+
+#sf_t
+{
+    display: flex;
+    font-weight: bold; 
+    font-family: Montserrat; 
+    padding-top: 0.5em; 
+    padding-left: 1em; 
+    margin: 0 auto;
+}
+
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+
+
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+}
+.navbar_item
+{
+    color: white; 
+    padding: 1em; 
+    text-align: center;
+}
+
+.navbar_item a
+{
+    text-decoration: none; 
+    color: white; 
+}
+
+@media screen and (max-width: 700px)
+{
+    .zaglavlje
+    {
+        height: 46vh; 
+    }
+
+
+    .navbar
+    {
+        padding-top: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar_item
+    {
+        padding: 0.4em;
+    }
+
+    #sf_t
+    {
+        margin-left: 11vw;
+    }
+}

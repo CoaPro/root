@@ -1,0 +1,51 @@
+
+.tkMeni
+{
+    padding-top: 2rem;
+    width: 14em;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.tkMeni a
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.tkMeni li
+{
+    padding: 0.7em; 
+    list-style: none;
+    background-color: seagreen; 
+    color: white; 
+}
+
+.tkMeni li:hover
+{
+    opacity: 0.8;
+}
+
+.radTK
+{
+    padding-top: 2em;
+    display: flex; 
+    width: 60vw;
+    flex-direction: column; 
+    margin: 0 auto;
+    justify-content: center; 
+}
+
+.radTKitem
+{
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+}
+
+.radTKitem img
+{
+    width: 100%; 
+    margin: 0 auto; 
+}

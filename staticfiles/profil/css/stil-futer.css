@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+#futer_t
+{
+    background-color:  #24252A; 
+    padding: 0; 
+    margin-bottom: 0; 
+    height: 10em; 
+    
+}
+
+.futer_t_ikonice
+{
+    display: grid; 
+    grid-template-columns: repeat(5, 5em); 
+    grid-gap: 0.5em; 
+    justify-content: center; 
+    justify-items: center; 
+    padding-top: 4em;  
+    padding-bottom: 1em; 
+    transition-duration: 1s; 
+    margin-left: 5em; 
+}
+
+.futer_t_ikonice_pocetna
+{
+    display: grid; 
+    grid-template-columns: repeat(5, 3em); 
+    grid-gap: 0.5em; 
+    justify-content: center; 
+    justify-items: center; 
+    padding-top: 4em;  
+    padding-bottom: 1em; 
+    transition-duration: 1s; 
+    margin-left: 5em; 
+}
+
+.autorska_prava
+{
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto 0 auto; 
+    color: white; 
+    padding-top: 0.5em; 
+    font-family:'Monserat-Medium', sans-serif; 
+}
+
+.autorska_prava:hover 
+{
+    opacity: 0.6; 
+} 
+
+@media screen and (max-width: 700px) 
+{
+    .futer_t_ikonice_pocetna 
+    {
+        /* margin-left: 1em; */
+        grid-template-columns: repeat(5, 3em); 
+    }
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+.grid-slike
+{
+    display: grid; 
+    grid-gap: 1em; 
+    /* border: 10px solid red; */ 
+
+    grid-template-columns: repeat(auto-fit, minmax(20em, auto)); 
+    grid-auto-rows: minmax(506px, auto); 
+}
+
+
+.slike 
+{
+    justify-self: center; 
+    color:rgb(57, 62, 122); 
+} 
+
+.slike img 
+{
+    border-radius: 3%; 
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.23), 0 6px 20px 0 rgba(0, 0, 0, 0.23); 
+}
+
+.slike img:hover 
+{
+    opacity: 0.95; 
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.23), 0 6px 20px 0 rgba(0, 0, 0, 0.4); 
+    
+}
+
+
+#ps
+{
+    font-family: 'Monserat-Medium', sans-serif;  
+    font-weight: lighter; 
+    text-align: center; 
+    margin: 0 auto 0 auto; 
+    padding: 0.5rem; 
+} 
+
+#ps:hover 
+{
+    text-align: center; 
+    color:rgba(57, 62, 122, 0.7); 
+    font-size: 110%;  
+}
+
+.slika-0
+{
+    padding-top: 1rem; 
+    width: 60%; 
+
+    /*
+    border: 5px solid greenyellow; 
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    justify-self: start; 
+    */
+
+    grid-column: 1 / -1; 
+}
+
+#sl-0
+{
+    width: 100%;  
+
+}
+
+.slika-1
+{
+    grid-column-start: 2; 
+    grid-column-end: 3; 
+}
+
+.slika-2
+{
+   grid-column-start: 3; 
+   grid-column-end: 4; 
+   row-gap: 2em;   
+}
+
+
+.slika-3
+{
+    grid-column: 1 / -1; 
+}
+
+
+
+.slika-4, .slika-5
+{
+    grid-column: 1 / -1;   
+}
+
+.slika-1, .slika-2 
+{
+    transition-property: transform; 
+    transition-duration: 1.3s; 
+}
+
+.slika-1:hover, .slika-2:hover 
+{
+    transform: rotateY(180deg); 
+}
+
+
+@media screen and (max-width: 1360px)
+{
+ .grid-slike
+ {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+ }
+
+  #sl-3, #sl-4
+{
+    width: 82%; 
+}
+
+
+}
+
+@media screen and (max-width: 1280px)
+{
+
+ .slika-0 
+ {
+     width: 86%; 
+ }   
+
+ .grid-slike
+ {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+ }
+
+  #sl-3, #sl-4, #sl-5
+{
+    width: 86%; 
+    margin-left: 7%; 
+}
+
+}

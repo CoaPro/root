@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+*
+{
+    margin: 0;
+    padding: 0; 
+    font-family: "Lato", sans-serif;
+}
+
+.teloProjekti
+{  
+    padding-top: 1em; /*Privremeno*/
+}
+
+.tabelaProjekataA
+{
+    display: flex; 
+    border: 3px solid black; 
+    width: 30rem; 
+    margin: 0 auto; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.tabelaProjekataA a
+{
+    text-decoration: none; 
+    color: cornflowerblue;
+}
+
+
+.tabelaProjekataA th
+{
+    color: white;
+    background-color: cornflowerblue; 
+    width: 30rem; 
+    padding: 0.5em; 
+}
+
+
+

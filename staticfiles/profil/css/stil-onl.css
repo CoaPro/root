@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+.grid-container
+{
+    display: grid; 
+    margin: 0 auto; 
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr)); 
+}
+
+#kursevi
+{
+    width: 300px; 
+    margin-left: 3em;
+    padding-top: 5em; 
+    opacity: 0.6; 
+    margin: 0 auto; 
+    justify-content: center;
+}
+
+.lista_a 
+{
+    color: #0072bc; 
+    font-weight: bold; 
+    list-style: none; 
+    padding: 1.4em; 
+    justify-content: center; 
+    margin: 0 auto; 
+}
+
+.lista_a a 
+{
+    color: #ec1212; 
+}
+
+.lista_a li 
+{
+    font-size: 120%; 
+    text-align: left; 
+}
+
+.lista_b li 
+{
+    color: #0072bc; 
+    list-style: none; 
+    padding: 1.4em; 
+    font-size: 100%; 
+} 
+
+.lista_b_b1 li 
+{
+    text-align: right; 
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&family=Noto+Sans+JP:wght@100&display=swap'); 
+
+.omotac
+{
+    width: 90%;
+    min-height: 100vh; 
+    max-width: 1550px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255); 
+}
+
+main {
+     /*test-vizuelizacija*/
+     background-color: white;
+}
+
+
+
+/*Stranica test.html*/ 
+
+#heder_t
+{
+    background-color: rgb(3, 42, 102);
+}
+
+.main_t_a 
+{
+    min-height: 500px; 
+    background-color: rgb(255, 255, 255); 
+}
+
+.grid-container 
+{
+    display: grid; 
+    row-gap: 1em; 
+    column-gap: 1em;  
+}
+
+.grid-item
+{
+    /*border: 3px solid #24252A; */
+    grid-auto-columns: minmax(10em, auto); 
+}
+
+
+
+.lista_a
+{
+    list-style: none; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.lista_b, .lista_c 
+{
+    display: flex;
+    flex-direction: row; 
+    justify-items: center; 
+}
+
+.lista_b_b1 li, .lista_b_b2 li, .lista_b_b3 li, .lista_c_c1  li, .lista_c_c2  li, .lista_c_c3  li 
+{
+    display: block; 
+}
+
+.item-1
+{
+    grid-column: span 3; 
+    
+}
+
+.item-2
+{
+    grid-column: span 3;  
+}
+
+.item-3
+{
+    grid-column: span 3;
+}
+
+.item-4
+{
+    grid-column: span 3; 
+}
+
+/*Stranica fakultet.html*/
+
+.lista_faks 
+{
+    list-style-type: none; 
+    font-size: 110%; 
+    font-weight: bold; 
+    
+}
+
+.lista_faks li, .lista_faks ul
+{
+    list-style-type: none; 
+    color: #000000; 
+    padding: 1em; 
+    color: #0072bc; 
+    
+}
+
+#ing, #master 
+{
+    width: 80%; 
+    border-radius: 3%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+#master
+{
+    grid-column: 1; 
+}
+
+#ing:hover, #master:hover 
+{
+    opacity: 0.91; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.4); 
+}
+
+/*Stranica fakultet.html*/
+
+
+.lista_a li 
+{
+    color: #0072bc; 
+    padding: 1.4em; 
+}
+
+.lista_b li 
+{
+    color: #0072bc; 
+    padding: 1.4em; 
+}
+
+.lista_c li 
+{
+    color: #0072bc; 
+    padding: 1.4em; 
+}
+
+.lista_d li 
+{
+    color: #0072bc; 
+    padding: 1.4em; 
+}
+
+/*Stranica test.html*/ 
+
+#heder_t
+{
+    background-color: rgb(143, 156, 175);
+}
+
+.main_t_a 
+{
+    min-height: 500px; 
+    background-color: rgb(178, 201, 223); 
+}
+
+.grid-container 
+{
+    display: grid; 
+    /* grid-template-columns: repeat(3, 20em); */
+    grid-auto-rows: minmax(23em, auto); 
+    color: #0072bc; 
+    font-family: Consolas; 
+    background-color: white; 
+    grid-gap: 1em; 
+    justify-content: center; 
+    justify-items: center; 
+    padding: 2em; 
+    /*Prilagodljivi dizajn :O */
+    grid-template-columns: repeat( auto-fit, minmax(23em, 1fr)); 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* */
+}

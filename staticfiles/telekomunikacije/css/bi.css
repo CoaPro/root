@@ -1,0 +1,105 @@
+body
+{
+    position: relative;
+}
+.telo_bi
+{
+    min-height: 80vh; 
+}
+
+.container_bi
+{
+    display: flex; 
+    width: 90vw;
+    flex-direction: column; 
+    margin: 0 auto; 
+
+    
+}
+
+.item
+{
+    margin: 0 auto; 
+    align-items: center;
+}
+
+.container_bi img
+{
+    width: 60%; 
+    margin-left: 18vw; 
+}
+/*
+.prikaziBI, .sakrijBI
+{
+    width: 10em;
+    margin: 0 auto;
+    color: white; 
+    text-align: center; 
+    padding: 0.3em; 
+    border-radius: 16px;
+}
+
+.prikaziBI
+{
+    background-color: yellowgreen; 
+}
+
+.sakrijBI
+{
+    background-color: tomato;
+}
+*/
+
+.prikaziSakrijBI
+{
+    text-align: center; 
+}
+
+.prikaziSakrijBI a
+{
+    text-decoration: none;
+}
+
+.prikaziSakrijBI ul
+{
+    padding: 1em; 
+}
+
+.prikaziSakrijBI li
+{
+    margin: 0 auto;
+    color: white; 
+    background-color: rgb(30, 112, 206); 
+    padding: 1em; 
+    width: 15em; 
+
+}
+
+.prikaziSakrijBI li:hover
+{
+    opacity: 0.7;
+}
+
+.izvestajBI
+{
+    color: white;
+    background-color: orange;
+    width: 15em; 
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 42%; 
+    text-align: center; 
+} 
+
+.izvestajBI li
+{
+    
+    background-color: orange; 
+    padding: 0.5em; 
+}
+
+.izvestajBI li:hover
+{
+    opacity: 0.5;
+}

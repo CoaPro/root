@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&family=Noto+Sans+JP:wght@100&display=swap'); 
+/*
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+*/
+
+*
+{
+    margin: 0; 
+    padding: 0; 
+}
+
+.zaglavlje 
+{
+    background-color:#24252A; 
+    width: 100%; 
+}
+
+li, a, button
+{
+    font-family: 'Monserat-Medium', sans-serif; 
+    font-weight: 500; 
+    font-size: 1em; 
+    color: #edf0f1;
+    text-decoration: none; 
+} 
+
+.logo
+{
+    cursor: pointer; 
+    width: 3.8em; 
+    height: 3.8em; 
+}
+
+header
+{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding:  2em 10vh;  /*30 px gore i dole, 10% levo i desno */
+    background-color: #24252A; 
+    padding-bottom: 4em; 
+    text-align: center; 
+}
+
+.jezik 
+{
+    list-style-type: none; 
+    font-size: 70%; 
+    color: white; 
+    background-color: #24252A; 
+    display: block; 
+    margin-left: 6.7em; 
+    padding-top: 0.5em; 
+
+} 
+
+.jezik li 
+{
+    display: inline; 
+    padding-right: 5px;  
+    text-align: center;  
+
+}
+
+.jezik li a
+{
+    transition: all 0.3s ease 0s;
+}
+
+.jezik li a:hover
+{
+    transition: all 0.3s ease 0s; 
+    color: #027d9c; /* 0088a9*/
+    transform: scale(1.05); 
+}
+
+.nav_bar
+{
+    list-style: none; 
+    
+}
+
+.nav_bar li:hover
+{
+    transform: scale(1.05);
+}
+
+.nav_bar li
+{
+    display: inline; 
+    padding: 0 1.2em; 
+    text-align: center; 
+    
+}
+
+.nav_bar li a
+{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_bar li a:hover
+{
+    transition: all 0.3s ease 0s; 
+    color: #027d9c; /* 0088a9*/
+    transform: scale(1.05); 
+}
+
+#nazad 
+{
+	padding: 0.5em 1.5em; 
+	background-color: rgb(156, 202, 19); 
+	border: none; 
+	border-radius: 50px; 
+	cursor: pointer; 
+    transition: all 0.3s ease 0s; 
+    transition-property: transform; 
+    transition-timing-function: ease-in; 
+    transition-delay: 0.2s;  
+    
+} 
+
+#nazad:hover 
+{
+    transform: rotateY(180deg); 
+    background-color: rgba(156, 202, 19, 0.3); 
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.23), 0 6px 20px 0 rgba(0, 0, 0, 0.23); 
+}
+
+@media screen  and (max-width: 700px)
+{
+ 
+    .nav_bar li
+    {
+        display: block; 
+        padding-bottom: 0.5em; 
+        margin-left: 1.125em; 
+    } 
+
+    .jezik
+    {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        margin-left: 0em; 
+        padding-top: 1em; 
+        border-bottom: 2px solid white;  
+        padding-bottom: 0.75em; 
+        text-align: center;
+    }
+
+}
+
+.logo:hover
+{
+    border: 2px solid #027d9c; 
+    border-radius: 35%; 
+    opacity: 0.8; 
+}
+
