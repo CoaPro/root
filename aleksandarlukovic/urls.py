@@ -36,5 +36,6 @@ urlpatterns = [
     path('profil/profile', linkovi.profileProfile, name="profileProfile"),
     path('profil/sr', linkovi.srProfil, name="srProfil"),
     #telekomunikacije
+    path('telekomunikacije/beleske', linkovi.beleskeTS, name="beleskeTS"),
     #informatika
 ]

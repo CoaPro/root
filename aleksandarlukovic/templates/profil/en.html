@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{% static 'profil/css/stil-zaglavlje.css'%}"> 
     <link rel="stylesheet" href="{% static 'profil/css/stil-pocetna.css'%}"> 
     <link rel="stylesheet" href="{% static 'profil/css/stil-futer.css'%}"> 
-    <link rel="shorcut icon" href="{% static 'profil/img/Slika_CV_krug.png'%}"> 
+    <link rel="shortcut icon" href="{% static 'profil/img/Slika_CV_krug.png'%}"> 
 </head>
 <body>
 
@@ -29,7 +29,7 @@
                 <li><a href="{% url 'profileProfile' %}">Profile</a></li>
                 <li><a href="{% url 'facultyProfile' %}">Faculty</a></li>
                 <li><a href="{% url 'onlProfile' %}">Online courses and certificates</a></li>
-                <li><a href="{% url 'galeryProfile' %}">Galery</a></li>
+                <li><a href="{% url 'indexRoot' %}">Root</a></li>
                 <li><a href="{% url 'contactProfile' %}">Contact</a></li>
             </ul>
         </nav>
@@ -71,7 +71,7 @@
                 </div>
                 -->
 
-                <div class="pocetna_a" style="background-image: url('./img/s2min.jpg');">
+                <div class="pocetna_a" style="background-image: url('{% static 'profil/img/s2min.jpg'%}')">
     
                 </div>
 

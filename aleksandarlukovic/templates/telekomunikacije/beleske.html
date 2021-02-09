@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beleške</title> 
-    <link rel="stylesheet" href="css/beleske.css">
-    <link rel="stylesheet" href="css/zaglavlje.css">
+
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'telekomunikacije/css/zaglavlje.css' %}">
+    <link rel="stylesheet" href="{% static 'telekomunikacije/css/beleske.css' %}">
+
 </head>
 <body>
 
     <div class="zaglavlje"> 
         <p id="sf_t">Saobraćajni fakultet </p>
-        <a id="m_nazad" href="index.html">Nazad</a> 
+        <a id="m_nazad" href="{% url 'indexRoot' %}">Nazad</a> 
     </div> 
 
     <div class="a0_b">
