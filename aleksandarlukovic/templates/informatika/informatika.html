@@ -2,7 +2,10 @@
 
 <head>
 <title> Coa Pro | Internet Security</title>
-<link rel="stylesheet" href="css/pocetna.css">
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'informatika/css/pocetna.css' %}">
+
 </head>
 
 <body>
@@ -14,9 +17,10 @@
       <li><a href="#">Softver</a></li>
       <li><a href="#">Kontakt </a></li>
       <li><a href="#">Preuzmi </a></li>
+      <li><a href="{% url 'indexRoot' %}">Root </a></li>
 
       <input type="text" name="search" id="search" placeholder="Pretraga..."/>
-      <img id="s_img" src="img/s1.png"> </img>
+      <img id="s_img" src="{% static 'informatika/img/s1.png' %}"> </img>
     </ul>
 
   </div>
@@ -24,7 +28,7 @@
 <div class="w">
 
 <div class="main">
-  <img src="img/antivirus1.jpg"> </img>
+  <img src="{% static 'informatika/img/antivirus1.jpg' %}"> </img>
 </div>
 
 <div class="aside">
@@ -54,7 +58,7 @@
 </div>
 
 <div class="zelena">
-  <img src="img/dm1.jpg"> </img>
+  <img src="{% static 'informatika/img/dm1.jpg' %}"> </img>
   <h2> Coa Pro | Internet Security <h2>
 
 </div>
@@ -65,7 +69,7 @@
 </div>
 
 <div class="bela">
-  <img src="img/komp1.jpg"></img>
+  <img src="{% static 'informatika/img/komp1.jpg' %}"></img>
 
   <div class="desno">
     <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h3>

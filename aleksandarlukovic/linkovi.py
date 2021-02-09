@@ -63,6 +63,9 @@ def biTS(request):
 def bi2TS(request):
     return render(request, 'telekomunikacije/bezbednost_informacija2.html')
 
+def bmTS(request):
+    return render(request, 'telekomunikacije/bezicne_mreze.html')
+
 def masterTS(request):
     return render(request, 'telekomunikacije/master.html')
 
@@ -77,5 +80,5 @@ def tkmTS(request):
     return render(request, 'telekomunikacije/tk_sistemi_mas.html')
 
 #informatika
-def informatikaInformatika(request):
+def informatika(request):
     return render(request, 'informatika/informatika.html')

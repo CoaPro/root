@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saobraćajni fakultet | Osnovne akademske studije </title> 
-    <link rel="stylesheet" href="css/osnovne.css">
-    <link rel="stylesheet" href="css/zaglavlje.css">
-    <link rel="stylesheet" href="css/zacelje.css">
-    <link rel="shortcut icon" href="ico/Coa Pro 2.3.2 Лого 2021-круг.png">
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'telekomunikacije/css/zaglavlje.css' %}">
+    <link rel="stylesheet" href="{% static 'telekomunikacije/css/osnovne.css' %}">
+    <link rel="stylesheet" href="{% static 'telekomunikacije/css/zacelje.css' %}">
+    <link rel="shortcut icon" href="{% static 'telekomunikacije/ico/Coa Pro 2.3.2 Лого 2021-круг.png' %}">
+
 </head>
 <body onload="faksDef()">
 
@@ -17,14 +20,14 @@
         
         <div class="navbar">
 
-            <div class="navbar_item"><a href="index.html" target="_blank">Početna</a></div> 
-            <div class="navbar_item"><a href="osnovne.html" target="_blank">Osnovne studije</a></div> 
-            <div class="navbar_item"><a href="master.html" target="_blank">Master studije</a></div> 
-            <div class="navbar_item"><a href="master.html" target="_blank">Predmeti na masteru</a></div> 
-            <div class="navbar_item"><a href="master.html" target="_blank">Završeni radovi na masteru</a></div> 
-            <div class="navbar_item"><a href="https://coapro.github.io/aleksandar/sr.html" target="_blank">O meni</a></div> 
-            <div class="navbar_item"><a href="https://github.com/CoaPro" target="_blank">Veb projekti</a></div> 
-            <div class="navbar_item"><a href="https://coapro.github.io/aleksandar/kontakt.html" target="_blank">Kontakt</a></div> 
+            <div class="navbar_item"><a href="{% url 'telekomunikacije' %}" target="_blank">Početna</a></div> 
+            <div class="navbar_item"><a href="{% url 'osnovneTS' %}" target="_blank">Osnovne studije</a></div> 
+            <div class="navbar_item"><a href="{% url 'masterTS' %}" target="_blank">Master studije</a></div> 
+            <div class="navbar_item"><a href="{% url 'masterTS' %}" target="_blank">Predmeti na masteru</a></div> 
+            <div class="navbar_item"><a href="{% url 'masterTS' %}" target="_blank">Završeni radovi na masteru</a></div> 
+            <div class="navbar_item"><a href="{% url 'profilProfil' %}" target="_blank">O meni</a></div> 
+            <div class="navbar_item"><a href="{%url 'indexRoot' %}">Root</a></div> 
+            <div class="navbar_item"><a href="{% url 'kontaktProfil' %}" target="_blank">Kontakt</a></div> 
  
          </div>
 
@@ -203,27 +206,26 @@
 
         </div>
 
-        <div class="zacelje_c">
 
-            <div class="zacelje_i">
-                <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="ico/linkedin.svg" title="Aleksandar Luković | LinkedIn"></img> </a>
-            </div>
+        <div class="zacelje_i">
+            <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="{% static 'telekomunikacije/ico/linkedin.svg' %}" title="Aleksandar Luković | LinkedIn"></img> </a>
+        </div>
 
-            <div class="zacelje_i">
-                <a href="https://github.com/CoaPro" target="_blank"><img src="ico/github.svg" title="Aleksandar Luković | GitHub"></img> </a>
-            </div>
+        <div class="zacelje_i">
+            <a href="https://github.com/CoaPro" target="_blank"><img src="{% static 'telekomunikacije/ico/github.svg' %}" title="Aleksandar Luković | GitHub"></img> </a>
+        </div>
 
-            <div class="zacelje_i">
-                <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="ico/facebook.svg" title="Aleksandar Luković | Facebook"></img> </a> 
-            </div>
+        <div class="zacelje_i">
+            <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="{% static 'telekomunikacije/ico/facebook.svg' %}" title="Aleksandar Luković | Facebook"></img> </a> 
+        </div>
 
-            <div class="zacelje_i">
-                <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="ico/instagram.svg" title="Aleksandar Luković | Instagram"></img> </a>
-            </div>
+        <div class="zacelje_i">
+            <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="{% static 'telekomunikacije/ico/instagram.svg' %}" title="Aleksandar Luković | Instagram"></img> </a>
+        </div>
 
-            <div class="zacelje_i">
-                <a href="https://www.youtube.com/CoaPro/" target="_blank"><img src="ico/youtube.svg" title="Aleksandar Luković | YouTube"></img> </a>
-            </div>
+        <div class="zacelje_i">
+            <a href="https://www.youtube.com/CoaPro/" target="_blank"><img src="{% static 'telekomunikacije/ico/youtube.svg' %}" title="Aleksandar Luković | YouTube"></img> </a>
+        </div>
 
         </div>
     </div> 

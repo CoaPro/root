@@ -37,5 +37,13 @@ urlpatterns = [
     path('profil/sr', linkovi.srProfil, name="srProfil"),
     #telekomunikacije
     path('telekomunikacije/beleske', linkovi.beleskeTS, name="beleskeTS"),
+    path('telekomunikacije/bezbednost_infromacija', linkovi.biTS, name="biTS"),
+    path('telekomunikacije/bezbednost_infromacija2', linkovi.bi2TS, name="bi2TS"),
+    path('telekomunikacije/bezicne_mreze', linkovi.bmTS, name="bmTS"),
+    path('telekomunikacije/master', linkovi.masterTS, name="masterTS"),
+    path('telekomunikacije/osnovne', linkovi.osnovneTS, name="osnovneTS"),
+    path('telekomunikacije', linkovi.telekomunikacije, name="telekomunikacije"),
+    path('telekomunikacije/tk_sistemi_mas', linkovi.tkmTS, name="tkmTS"),
     #informatika
+    path('informatika', linkovi.informatika, name="informatika"),
 ]
