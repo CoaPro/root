@@ -5,32 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aleksandar Luković">
     <title>Aleksandar Luković | Contact </title> 
+    
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'profil/css/stil-zaglavlje.css'%}"> 
+    <link rel="stylesheet" href="{% static 'profil/css/stil-kontakt.css'%}"> 
+    <link rel="stylesheet" href="{% static 'profil/css/stil-futer.css'%}"> 
+    <link rel="shorcut icon" href="{% static 'profil/img/Slika_CV_krug.png'%}"> 
 
-    <link rel="stylesheet" href="./css/stil-zaglavlje.css"> 
-    <link rel="stylesheet" href="./css/stil-kontakt.css"> 
-    <link rel="stylesheet" href="./css/stil-futer.css"> 
-    <link rel="shortcut icon" href="./img/Slika_CV_krug.png"> 
 </head>
 <body>
   
 <div class="zaglavlje"> 
 
     <ul class="jezik"> 
-        <li><a href="kontakt.html">SRB</a></li> 
-        <li><a href="contact.html">ENG</a></li> 
+        <li><a href="{% url 'kontaktProfil' %}">SRB</a></li> 
+        <li><a href="{% url 'contactProfile' %}">ENG</a></li> 
     </ul> 
 
     <header>
-        <img class="logo" src="./img/Slika_CV_krug.png" alt="logo">
+        <img class="logo" src="{% static 'profil/img/Slika_CV_krug.png'%}" alt="logo">
 
         <nav>
             <ul class="nav_bar">
-                <li><a href="en.html">Home</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="faculty.html">Faculty</a></li>
-                <li><a href="online_courses.html">Online courses and certificates</a></li>
-                <li><a href="galery.html">Galery</a></li> 
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="{% url 'enProfile' %}">Home</a></li>
+                <li><a href="{% url 'profileProfile' %}">Profile</a></li>
+                <li><a href="{% url 'facultyProfile' %}">Faculty</a></li>
+                <li><a href="{% url 'onlProfile' %}">Online courses and certificates</a></li>
+                <li><a href="{% url 'galeryProfile' %}">Galery</a></li>
+                <li><a href="{% url 'contactProfile' %}">Contact</a></li>
             </ul>
         </nav>
 
@@ -85,7 +87,7 @@
 
         </section>
         
-        <script src="./js/contact.js"></script>
+        <script src="{% static 'profil/js/contact.js'%}"></script>
 
     </div>
 
@@ -93,10 +95,10 @@
 
         <footer id="futer_t">
             <div class="futer_t_ikonice">
-                <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="./icon/linkedin.svg" title="LinkedIn"></img> </a>
-                <a href="https://github.com/CoaPro" target="_blank"><img src="./icon/github.svg" title="GitHub"></img> </a>
-                <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="./icon/facebook.svg" title="Facebook"></img> </a> 
-                <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="./icon/instagram.svg" title="Instagram"></img> </a>
+                <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="{% static 'profil/ico/linkedin.svg'%}" title="LinkedIn"></img> </a>
+                <a href="https://github.com/CoaPro" target="_blank"><img src="{% static 'profil/ico/github.svg'%}" title="GitHub"></img> </a>
+                <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="{% static 'profil/ico/facebook.svg'%}" title="Facebook"></img> </a> 
+                <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="{% static 'profil/ico/instagram.svg'%}" title="Instagram"></img> </a>
             </div>
         </footer>
 

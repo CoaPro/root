@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +7,36 @@
     <title>Aleksandar Luković | Adobe Photoshop  </title>
 
    <!-- <link rel="stylesheet" href="./css/stil-test2.css"> -->
-    <link rel="stylesheet" href="./css/stil-zaglavlje.css"> 
-    <link rel="stylesheet" href="./css/stil-galerija.css">
-    <link rel="stylesheet" href="./css/stil-futer.css">
-    <link rel="shortcut icon" href="./img/Slika_CV_krug.png"> 
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'profil/css/stil-zaglavlje.css'%}"> 
+    <link rel="stylesheet" href="{% static 'profil/css/galerija.css'%}"> 
+    <link rel="stylesheet" href="{% static 'profil/css/stil-futer.css'%}"> 
+    <link rel="shorcut icon" href="{% static 'profil/img/Slika_CV_krug.png'%}"> 
+
 </head>
 <body>
  
     <div class="zaglavlje"> 
 
         <ul class="jezik"> 
-            <li><a href="galerija.html">SRB</a></li> 
-            <li><a href="galery.html">ENG</a></li> 
+            <li><a href="{% url 'galerijaProfil' %}">SRB</a></li> 
+            <li><a href="{% url 'galeryProfile' %}">ENG</a></li> 
         </ul>  
 
         <header>
-            <img class="logo" src="./img/Slika_CV_krug.png" alt="logo" title="Aleksandar Luković" > 
+            <img class="logo" src="{% static 'profil/img/Slika_CV_krug.png'%}" alt="logo" title="Aleksandar Luković" >
 
             <nav>
                 <ul class="nav_bar">
-                    <li><a href="sr.html">Početna</a></li>
-                    <li><a href="profil.html">Profil</a></li>
-                    <li><a href="fakultet.html">Fakultet</a></li>
-                    <li><a href="online_kursevi.html">Online kursevi i sertifikati </a></li>
-                    <li><a href="galerija.html">Galerija</a></li> 
-                    <li><a href="kontakt.html">Kontakt</a></li>
+
+                    <li><a href="{% url 'srProfil' %}">Početna</a></li>
+                    <li><a href="{% url 'profilProfil' %}">Profil</a></li>
+                    <li><a href="{% url 'fakultetProfil' %}">Fakultet</a></li>
+                    <li><a href="{% url 'onlProfil' %}">Online kursevi i sertifikati </a></li>
+                    <li><a href="{% url 'galerijaProfil' %}">Galerija</a></li>
+                    <li><a href="{% url 'kontaktProfil' %}">Kontakt</a></li>
+                    
                 </ul>
             </nav>
 
@@ -47,24 +52,24 @@
                 <div class="grid-slike"> 
 
                         <div class="slike slika-0">
-                            <img id="sl-0" src="./galerija/Coa-Pro-26-2.gif"> 
+                            <img id="sl-0" src="{% static 'profil/galerija/Coa-Pro-26-2.gif'%}"> 
                             <h3 id="ps">Neki od Adobe Photoshop projekata </h3> 
                         </div>
 
                         <div class="slike slika-1">
-                            <img id="sl-5" src="./galerija/Coa Pro 3.jpg"> 
+                            <img id="sl-5" src="{% static 'profil/galerija/Coa Pro 3.jpg'%}"> 
                         </div> 
 
                         <div class="slike slika-2">
-                            <img  id="sl-5" src="./galerija/Coa Pro 7-3.jpg"> 
+                            <img id="sl-5" src="{% static 'profil/galerija/Coa Pro 7-3.jpg'%}">  
                         </div> 
 
                         <div class="slike slika-3">
-                            <img  id="sl-3" src="./galerija/Coa Pro 11.jpg"> 
+                            <img id="sl-3" src="{% static 'profil/galerija/Coa Pro 11.jpg'%}">  
                         </div> 
 
                         <div class="slike slika-4">
-                            <img  id="sl-4" src="./galerija/Coa Pro 12.jpg"> 
+                            <img id="sl-4" src="{% static 'profil/galerija/Coa Pro 12.jpg'%}">  
                         </div> 
 
                         <div class="slike slika-4">

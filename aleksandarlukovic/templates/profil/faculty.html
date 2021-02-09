@@ -6,31 +6,33 @@
     <meta name="author" content="Aleksandar Luković">
     <title>Aleksandar Luković | Faculty  </title> 
 
-    <link rel="stylesheet" href="./css/stil-test2.css"> 
-    <link rel="stylesheet" href="./css/stil-zaglavlje.css"> 
-    <link rel="stylesheet" href="./css/stil-futer.css"> 
-    <link rel="shortcut icon" href="./img/Slika_CV_krug.png"> 
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'profil/css/stil-zaglavlje.css'%}"> 
+    <link rel="stylesheet" href="{% static 'profil/css/stil-test2.css'%}"> 
+    <link rel="stylesheet" href="{% static 'profil/css/stil-futer.css'%}"> 
+    <link rel="shorcut icon" href="{% static 'profil/img/Slika_CV_krug.png'%}"> 
+
 </head>
 <body>
 
 <div class="zaglavlje"> 
 
     <ul class="jezik"> 
-        <li><a href="fakultet.html">SRB</a></li> 
-        <li><a href="faculty.html">ENG</a></li> 
+        <li><a href="{% url 'fakultetProfil' %}">SRB</a></li> 
+        <li><a href="{% url 'facultyProfile' %}">ENG</a></li> 
     </ul>  
               
     <header>
-        <img class="logo" src="./img/Slika_CV_krug.png" alt="logo">
+        <img class="logo" src="{% static 'profil/img/Slika_CV_krug.png'%}" alt="logo" title="Aleksandar Luković" >
 
         <nav>
             <ul class="nav_bar">
-                <li><a href="en.html">Home</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="faculty.html">Faculty</a></li>
-                <li><a href="online_courses.html">Online courses and certificates</a></li>
-                <li><a href="galery.html">Galery</a></li> 
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="{% url 'enProfile' %}">Home</a></li>
+                <li><a href="{% url 'profileProfile' %}">Profile</a></li>
+                <li><a href="{% url 'facultyProfile' %}">Faculty</a></li>
+                <li><a href="{% url 'onlProfile' %}">Online courses and certificates</a></li>
+                <li><a href="{% url 'galeryProfile' %}">Galery</a></li>
+                <li><a href="{% url 'contactProfile' %}">Contact</a></li>
             </ul>
         </nav>
 
@@ -46,7 +48,7 @@
             
                 <div class="grid-container"> 
 
-                    <img id="ing" src="./img/ing.jpg"> 
+                    <img id="ing" src="{% static 'profil/img/ing.jpg'%}"> 
 
                     <ul class="lista_faks">
 
@@ -206,7 +208,7 @@
                           
                     </ul>
 
-                    <img id="master" src="./img/master-logo-2.jpg"> 
+                    <img id="master" src="{% static 'profil/img/master-logo-2.jpg'%}">  
          
                 </div>
 
@@ -220,10 +222,11 @@
 
         <footer id="futer_t">
             <div class="futer_t_ikonice">
-                <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="./icon/linkedin.svg" title="LinkedIn"></img> </a>
-                <a href="https://github.com/CoaPro" target="_blank"><img src="./icon/github.svg" title="GitHub"></img> </a>
-                <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="./icon/facebook.svg" title="Facebook"></img> </a> 
-                <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="./icon/instagram.svg" title="Instagram"></img> </a>
+                <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="{% static 'profil/ico/linkedin.svg'%}" title="LinkedIn"></img> </a>
+                <a href="https://github.com/CoaPro" target="_blank"><img src="{% static 'profil/ico/github.svg'%}" title="GitHub"></img> </a>
+                <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="{% static 'profil/ico/facebook.svg'%}" title="Facebook"></img> </a> 
+                <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="{% static 'profil/ico/instagram.svg'%}" title="Instagram"></img> </a>
+                <!--  <a href="https://www.youtube.com/CoaPro/" target="_blank"><img src="{% static 'profil/ico/youtube.svg'%}" title="Aleksandar Luković | YouTube"></img> </a> --> 
             </div>
         </footer>
 

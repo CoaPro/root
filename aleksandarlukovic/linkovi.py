@@ -37,10 +37,10 @@ def galeryProfile(request):
 def kontaktProfil(request):
     return render(request, 'profil/kontakt.html')
 
-def onlineCoursesProfile(request):
+def onlProfile(request):
     return render(request, 'profil/online_courses.html')
 
-def onlineKurseviProfil(request):
+def onlProfil(request):
     return render(request, 'profil/online_kursevi.html')
 
 def profilProfil(request):

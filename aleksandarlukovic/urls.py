@@ -23,7 +23,18 @@ urlpatterns = [
     path('root/aktivnosti', linkovi.aktivnostiRoot, name="aktivnostiRoot"),
     path('root/opis', linkovi.opisRoot, name="opisRoot"),
     #profil
-    path('profil/sr', linkovi.srProfil, name="srProfil")
+    path('profil/contact', linkovi.contactProfile, name="contactProfile"),
+    path('profil/en', linkovi.enProfile, name="enProfile"),
+    path('profil/faculty', linkovi.facultyProfile, name="facultyProfile"),
+    path('profil/fakultet', linkovi.fakultetProfil, name="fakultetProfil"),
+    path('profil/galerija', linkovi.galerijaProfil, name="galerijaProfil"),
+    path('profil/galery', linkovi.galeryProfile, name="galeryProfile"),
+    path('profil/kontakt', linkovi.kontaktProfil, name="kontaktProfil"),
+    path('profil/online_courses', linkovi.onlProfile, name="onlProfile"),
+    path('profil/online_kursevi', linkovi.onlProfil, name="onlProfil"),
+    path('profil/profil', linkovi.profilProfil, name="profilProfil"),
+    path('profil/profile', linkovi.profileProfile, name="profileProfile"),
+    path('profil/sr', linkovi.srProfil, name="srProfil"),
     #telekomunikacije
     #informatika
 ]
