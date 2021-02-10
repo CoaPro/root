@@ -1,4 +1,4 @@
-.a0, .a1
+.a0, .a1, .a2
 {
     color: white;
     width: 23em;
@@ -9,7 +9,7 @@
 
 .a0 {background-color: yellowgreen; }
 .a1 {background-color: rgb(99, 138, 21); }
-
+.a2 {background-color: rgb(206, 179, 27); }
 .nazadA
 {
     margin: 0 auto; 

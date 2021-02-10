@@ -19,15 +19,15 @@
         <p id="sf_t">Aleksandar Luković | Osnovne akademske studije </p>
         
         <div class="navbar">
-
-            <div class="navbar_item"><a href="{% url 'telekomunikacije' %}" target="_blank">Početna</a></div> 
-            <div class="navbar_item"><a href="{% url 'osnovneTS' %}" target="_blank">Osnovne studije</a></div> 
-            <div class="navbar_item"><a href="{% url 'masterTS' %}" target="_blank">Master studije</a></div> 
-            <div class="navbar_item"><a href="{% url 'masterTS' %}" target="_blank">Predmeti na masteru</a></div> 
-            <div class="navbar_item"><a href="{% url 'masterTS' %}" target="_blank">Završeni radovi na masteru</a></div> 
-            <div class="navbar_item"><a href="{% url 'profilProfil' %}" target="_blank">O meni</a></div> 
+            
+            <div class="navbar_item"><a href="{% url 'telekomunikacije' %}">Telekomunikacije</a></div> 
+            <div class="navbar_item"><a href="{% url 'osnovneTS' %}">Osnovne studije</a></div> 
+            <div class="navbar_item"><a href="{% url 'masterTS' %}">Master studije</a></div> 
+            <div class="navbar_item"><a href="{% url 'masterTS' %}">Predmeti na masteru</a></div> 
+            <div class="navbar_item"><a href="{% url 'masterTS' %}">Završeni radovi na masteru</a></div> 
+            <div class="navbar_item"><a href="{% url 'profilProfil' %}">O meni</a></div> 
             <div class="navbar_item"><a href="{%url 'indexRoot' %}">Root</a></div> 
-            <div class="navbar_item"><a href="{% url 'kontaktProfil' %}" target="_blank">Kontakt</a></div> 
+            <div class="navbar_item"><a href="{% url 'kontaktProfil' %}">Kontakt</a></div> 
  
          </div>
 
@@ -141,7 +141,7 @@
 
         <div class="slika_oas_i">
 
-        <img src="img/osnovne_studije.png" alt="Osnovne akademske studije">
+        <img src="{% static 'telekomunikacije/img/osnovne_studije.png' %}" alt="Osnovne akademske studije">
 
         </div>
 
@@ -155,7 +155,7 @@
     
 
     <div class="faks">
-        <p id="g_opis">Prva godina </p>
+        <p id="g_opis">Prva godina</p>
         <a id="p1" href=""></a>
         <a id="p2" href=""></a>
         <a id="p3" href=""></a>
@@ -190,21 +190,25 @@
 
     <div class="osnovneMeni">
 
-        <a href="master.html"><li>Klik za master studije</li></a>
-        <a href="index.html"><li>Povratak na početnu stranicu</li></a>
+        <a href="{% url 'masterTS' %}"><li>Klik na master studije</li></a>
+        <a href="{% url 'telekomunikacije' %}"><li>Klik na telekomunikacije</li></a>
         <!-- <a><li></li></a>*/ -->
         
-     </div>
+    </div>
+
+</div>  
+
+<div class="zacelje"> 
+        
+    <div class="autorskaPrava">
+
+        © 2021 Aleksandar Luković | Sva prava zadržana.
+        <br/>
+        Kodovano sa srcem. 
 
     </div>
 
-    <div class="zacelje"> 
-        
-        <div class="autorskaPrava">
-
-            © 2021 Aleksandar Luković | Sva prava zadržana 
-
-        </div>
+    <div class="zacelje_c">
 
 
         <div class="zacelje_i">
@@ -227,10 +231,10 @@
             <a href="https://www.youtube.com/CoaPro/" target="_blank"><img src="{% static 'telekomunikacije/ico/youtube.svg' %}" title="Aleksandar Luković | YouTube"></img> </a>
         </div>
 
-        </div>
-    </div> 
+    </div>
+</div> 
 
-    <script src="{% url 'telekomunikacije/js/osnovne.js' %}"></script>
+    <script src="{% static 'telekomunikacije/js/osnovne.js' %}"></script>
     
 </body>
 </html>
