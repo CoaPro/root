@@ -7,10 +7,10 @@
     <title>Aleksandar Luković | SRB </title>
 
     {% load static %}
-    <link rel="stylesheet" href="{% static 'profil/css/stil-zaglavlje.css'%}"> 
-    <link rel="stylesheet" href="{% static 'profil/css/stil-pocetna.css'%}"> 
-    <link rel="stylesheet" href="{% static 'profil/css/stil-futer.css'%}"> 
-    <link rel="shortcut icon" href="{% static 'profil/img/Slika_CV_krug.png'%}"> 
+    <link rel="stylesheet" type="text/css" href="{% static 'profil/css/stil-zaglavlje.css'%}"> 
+    <link rel="stylesheet" type="text/css" href="{% static 'profil/css/stil-pocetna.css'%}"> 
+    <link rel="stylesheet" type="text/css" href="{% static 'profil/css/stil-futer.css'%}"> 
+    <link rel="shortcut icon" type="text/css" href="{% static 'profil/img/Slika_CV_krug.png'%}"> 
 
 </head>
 
@@ -24,6 +24,7 @@
     </ul>     
 
     <header>
+
         <img class="logo" src="{% static 'profil/img/Slika_CV_krug.png'%}" alt="logo" title="Aleksandar Luković" >
 
         <nav>
@@ -35,74 +36,49 @@
                 <li><a href="{% url 'onlProfil' %}">Online kursevi i sertifikati </a></li>
                 <li><a href="{% url 'galerijaProfil' %}">Galerija</a></li>
                 <li><a href="{% url 'kontaktProfil' %}">Kontakt</a></li>
-
             </ul>
         </nav>
 
+        <a class="btn" href="javascript:history.back()"><button id="nazad">Nazad</button></a>
+
     </header>
+
 </div> 
 
     <div class="omotac">
 
         <main>
-<!-- 
-            <div class="sekcija_2">
-
-                <div class="flexbox-a prva_kolona-s2"> 
-                <a href="test.html">Profil</a>
-                </div>   
-
-                <div class="flexbox-a druga_kolona-s2"> 
-                    <a href="animacije.html">Animacije</a>
-                </div>  
-
-                <div class="flexbox-a treca_kolona-s2"> 
-                
-                </div>  
-
-            </div>
--->
 
             <div class="grid-container">
-                <!--
-                <div class="slika_1">
-                    
-                    <img id="s1" src="./img/s2.jpg"> 
 
-                    <h1>Aleksandar Luković</h1> 
-                    <h4>Online CV i portfolio</h4> 
- 
-                    <button id="btn_a">  Poseti </button>   
-                </div>
-                -->
+                <div class="pocetna_a" style="background-image: url('{% static 'profil/img/s2min.jpg'%}')"></div>
 
-                <div class="pocetna_a" style="background-image: url('{% static 'profil/img/s2min.jpg'%}')">
+                    <div class="sadrzaj_a">
 
-                <div class="sadrzaj_a">
+                        <h1>Aleksandar Luković</h1> 
+                        <h4>Online CV i portfolio</h4>
 
-                    <h1>Aleksandar Luković</h1> 
-                    <h4>Online CV i portfolio</h4>
+                        <div class="tasteri">
+                            <a href="{% url 'srProfil' %}" title="Profil & CV" ><button id="btn_a">Profil</button></a>
+                            <a href="{% url 'indexRoot' %}" title="Nazad na root/ direktorijum" ><button id="btn_b">Root</button></a> 
+                        </div>
 
-                    <div class="tasteri">
-                        <a href="{% url 'srProfil' %}" title="Profil & CV" ><button id="btn_a">Profil</button></a>
-                        <a href="{% url 'indexRoot' %}" title="Photoshop" ><button id="btn_b">Root</button></a> 
-                    </div>
+                        <div class="rad">
+                            Poslednja izmena:
+                            <br> 
+                            <br>
+                            10. 2. 2021. 
+                        </div> 
 
-                    <div class="rad">
-                        Poslednja izmena:
-                        <br> 
-                        <br>
-                        9. 2. 2021. 
                     </div> 
 
-                </div> 
             </div>
 
         </main>
 
     </div>
 
-</body> 
+
 
 <footer id="futer_t"> 
     <div class="futer_t_ikonice_pocetna">
@@ -116,5 +92,5 @@
         © 2021 Aleksandar Luković | Sva prava zadržana
     </div>
 </footer>
-
+</body> 
 </html>

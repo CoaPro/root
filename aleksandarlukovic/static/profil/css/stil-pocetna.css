@@ -5,8 +5,9 @@ header
     margin: 0 auto; 
     padding: 0; 
     box-sizing: border-box; 
-    background-color: rgb(0, 0, 0); /*test-vizuelizacija*/
+    background-color:#24252A; ; /*test-vizuelizacija*/
     width: 100%; 
+    border: 1px solid red;
 }
 
 .omotac
@@ -17,185 +18,6 @@ header
     margin: 0;
     background-color: #24252A; 
 }
-
-
-/*
-main {
-     
-     flex: 1 0 auto; 
-}
-*/
-
-/*
-.sekcija_2
-{
-    display: flex; 
-    margin: 0 auto;
-    color: rgb(163, 115, 26);
-}
-
-
-.flexbox-a
-{
-    width: 28em;
-    margin: 1em; 
-    background-color: teal; 
-}
-
-.prva_kolona-s2
-{
-    min-height: 30em; 
-
-}
-
-.druga_kolona-s2
-{
-    min-height: 30em;     
-}
-
-.treca_kolona-s2
-{
-    min-height: 30em;     
-}
-
-
-@media screen and (max-width: 1000px)
-{
-
-    .sekcija_2
-    {
-        flex-direction: column; 
-        flex-wrap: wrap; 
-        justify-content: center;
-        align-items: center; 
-    }
-
-    .prva_kolona-s2 
-    {
-        width: 35em; 
-    }
-
-    .sekcija_3
-    {
-        flex-direction: column; 
-        
-    }
-
-}
-
-
-@media screen and (max-width: 700px)
-{
-
-    .sekcija_2
-    {
-        flex-flow: row wrap; 
-        align-items: center; 
-        
-    }
-
-    .sekcija_3
-    {
-        flex-flow: row wrap; 
-    }
-
-    .prva_kolona-s2
-    {
-        min-width: 150px; 
-
-    }
-
-    .druga_kolona-s2
-    {
-        min-width: 150px;     
-    }
-
-    .treca_kolona-s2
-    {
-        min-width: 150px;     
-    }
-}
-
-.sekcija_3
-{
-    display: flex; 
-    margin: 0 auto; 
-}
-
-.flexbox-b
-{
-    width: 30em; 
-    margin: 2em; 
-    background-color: tomato; 
-    justify-content: center; 
-}
-
-.prva_kolona-s3
-{
-    min-height: 20em; 
-    background-color: yellowgreen; 
-
-}
-
-.druga_kolona-s3
-{
-    min-width: 20em; 
-}
-
-*/
-
-
-/*
-.slika_1
-{
-    position: relative;
-}
-
-h1
-{
-    position: absolute;
-    color: white; 
-    left:40%; 
-    top: 40%; 
-    font-family: 'Lato', sans-serif; 
-    font-weight: lighter; 
-}
-
-
-h4
-{
-    position: absolute;
-    color: white; 
-    left:44%; 
-    top: 46%;
-    font-family: 'Lato', sans-serif; 
-    font-weight: lighter; 
-}
-
-#btn_a
-{
-    background-color: springgreen; 
-    position: absolute; 
-    left:46%; 
-    top: 53%; 
-}
-
-#s1
-{
-    width: 100%;
-    height: 100%; 
-    padding-bottom: 0; 
-    opacity: 0.4; 
-    border-radius: 0% 0% 4% 4%; 
-    border-top: 3px solid slateblue; 
-    border-bottom: 3px solid slateblue; 
-}
-
-@media screen and (max-width: 1000px)
-{
-
-}
-*/
 
 .grid-containter
 {
@@ -233,10 +55,11 @@ h1, h4
     font-family: 'Lato', sans-serif; 
     font-weight: lighter; 
     position: absolute; 
-    top: 55%; 
+    top: 50%; 
     left: 41%; 
+    margin: 0 auto; 
     opacity: 1; 
-    
+    width: 23em; 
 }
 
 .tasteri
@@ -276,7 +99,7 @@ h1, h4
     margin: 0 auto; 
     color: white; 
     text-align: center; 
-    top: 57vh; 
+    top: 49vh; 
     left: 43vw;  
     width: 7em; 
     margin: 0 auto; 
@@ -294,14 +117,14 @@ h1, h4
     .sadrzaj_a
     {
         position: absolute; 
-        top: 85vh; 
+        top: 65vh; 
         left: 15vw; 
     } 
 
     .rad 
     {
         position: absolute; 
-        top: 45vh; 
+        top: 40vh; 
         left: 23vw; 
         margin: 0;
     }

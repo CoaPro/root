@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{% static 'root/css/zaglavlje.css'%}">
     <link rel="stylesheet" href="{% static 'root/css/pocetna.css'%}">
     <link rel="stylesheet" href="{% static 'root/css/zacelje.css'%}">
+    <link rel= "shortcut icon" href="{% static 'root/img/Pro 2.3.0 17.11.20 Slika1T4.png' %}">
 
 </head>
 <body>
@@ -36,17 +37,17 @@
 
             <div class="itemI">
                 <img src="{% static 'root/img/Pro 2.3.0 17.11.20 Slika1T4.png' %}">
-                <p><button><a href="{% url 'srProfil' %}">Profil</a></button></p>
+                <p><button><a href="{% url 'srProfil' %}" title="Moja Online biografija">Profil</a></button></p>
             </div>
 
             <div class="itemI">
                 <img src="{% static 'root/img/Coa Pro 2.3.2 Лого 2021-круг.png' %}">
-                <p><button><a href="{% url 'telekomunikacije' %}">Telekomunikacije</a></button></p>
+                <p><button><a href="{% url 'telekomunikacije' %}" title="Moja verzija telekomunikacija">Telekomunikacije</a></button></p>
             </div>
 
             <div class="itemI">
                 <img src="{% static 'root/img/7.png' %}">
-                <p><button><a href="{% url 'informatika' %}">Infromatika</a></button></p>
+                <p><button><a href="{% url 'informatika' %}" title="Moj sajt o infromatici u izradi...">Infromatika Demo</a></button></p>
             </div>
         </div>
 
