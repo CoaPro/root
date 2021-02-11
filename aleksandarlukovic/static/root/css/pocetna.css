@@ -61,6 +61,10 @@
     */
 }
 
+.itemI button:hover
+{
+    opacity: 1.0;
+}
 
 
 @media screen and (max-width: 1000px)

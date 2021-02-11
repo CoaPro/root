@@ -50,3 +50,11 @@
 {
     text-align: right; 
 }
+
+@media screen and (max-width: 720px)
+{
+    .lista_a
+    {
+        margin-top: 1em;
+    }
+}

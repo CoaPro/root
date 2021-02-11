@@ -138,3 +138,11 @@ textarea
 
 
 }
+
+@media screen and (max-width: 720px)
+{
+    section
+    {
+        margin-top: 3em;
+    }
+}
