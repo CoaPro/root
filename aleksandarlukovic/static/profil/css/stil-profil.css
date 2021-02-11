@@ -87,7 +87,7 @@ main {
     padding: 0.3em; 
     border-radius: 0px; 
     animation-name: link_gal; 
-    animation-duration: 1.2s; 
+    animation-duration: 2s; 
     animation-iteration-count: infinite; 
 }
 
@@ -130,7 +130,6 @@ main {
     border: 2px solid tomato; 
 }
 
-
 @keyframes link_gal
 {
     0%
@@ -146,4 +145,58 @@ main {
         background-color: white; 
         border-radius: 10px; 
     }
+}
+
+/*Novo 11. 2. 2021. */
+
+#profilNovo
+{
+    width: 9em;
+    padding: 0.2em;
+    animation-name: profilNovo; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes profilNovo
+{
+    0%
+    {
+        border-radius: 10px;  
+        color: white; 
+        background-color: #0072bc; 
+    }
+
+    100%
+    {
+        color: #4995c7; 
+        background-color: white; 
+        border-radius: 10px; 
+    }
+    
+    100%
+    {
+        color: #0072bc; 
+        background-color: white; 
+        border-radius: 10px; 
+    }
+}
+
+#heroku_a 
+{
+    color: white; 
+    background-color: #8d1b87; 
+    display: inline; 
+    padding: 0.3em; 
+    border-style: none; 
+    border-radius: 0.4em; 
+    transition-duration: 1s; 
+    transition-timing-function: ease;
+} 
+
+#heroku_a:hover
+{
+    color: #8d1b87; 
+    background-color: whitesmoke; 
+    border: 2px solid #8d1b87; 
 }
