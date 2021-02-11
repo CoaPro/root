@@ -2,6 +2,7 @@
 
 .grid-slike
 {
+    margin-top: 5em; 
     display: grid; 
     grid-gap: 1em; 
     /* border: 10px solid red; */ 

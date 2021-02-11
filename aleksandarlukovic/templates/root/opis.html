@@ -16,14 +16,14 @@
         <p id="txt">Aleksandar Luković | Opis </p>
         
         <div class="navbar">
-
-            <div class="navbar_item"><a href="{% url 'indexRoot' %}">Root</a></div> 
-            <div class="navbar_item"><a href="{% url 'srProfil' %}">Profil</a></div> 
-            <div class="navbar_item"><a href="{% url 'fakultetProfil' %}">Fakultet</a></div> 
-            <div class="navbar_item"><a href="{%url 'aktivnostiRoot' %}">Aktivnosti</a></div> 
-            <div class="navbar_item"><a href="{%url 'opisRoot' %}" title="Važni datumi u mom Veb radu">Opis</a></div> 
-            <div class="navbar_item"><a href="{%url 'projektiRoot' %}">Veb projekti</a></div> 
-            <div class="navbar_item"><a href="{%url 'kontaktProfil' %}">Kontakt</a></div> 
+            
+            <div class="navbar_item"><a href="{% url 'indexRoot' %}" target="Početna stranica">Root</a></div> 
+            <div class="navbar_item"><a href="{% url 'srProfil' %}" title="Moja online biografija">Profil</a></div> 
+            <div class="navbar_item"><a href="{% url 'fakultetProfil' %}" title="Fakultet, studije, inženjerstvo">Fakultet</a></div> 
+            <div class="navbar_item"><a href="{%url 'aktivnostiRoot' %}" title="Važni datumi u mom Veb radu">Aktivnosti</a></div> 
+            <div class="navbar_item"><a href="{%url 'opisRoot' %}" title="O meni">O meni</a></div> 
+            <div class="navbar_item"><a href="{%url 'projektiRoot' %}" title="Moji Veb projekti">Veb projekti</a></div> 
+            <div class="navbar_item"><a href="{%url 'kontaktProfil' %}" title="E-mail kontakt">Kontakt</a></div> 
 
         </div>
 
@@ -31,7 +31,7 @@
 
     <div class="teloO">
         
-        <div class="telo0_item">
+        <div class="telo0itemA">
 
                 Ja sam Aleksandar Luković. Rođen sam 1997. i imam 23 godine. 
                 <br/>
@@ -44,17 +44,18 @@
                 <br/> 
                 time stekao zvanje Diplomiranog inženjera telekomunikacionog saobraćaja i mreža. 
                 <br/> 
-                Po završetku osnovnih i upisa osnovnih studija, krenuo sam da se bavim Veb dizajnom i Veb programiranjem. 
+                Osnovu za informatiku, mreže i Veb programiranje stekao sam u gimnaziji - Gimnazija Vrnjačka Banja | Infromatički smer.
                 <br/>
                 
         </div>
 
-        <div class="telo0_item">
+        <div class="telo0itemB">
 
+            Moj aktivniji rad u oblastima Veb dizajna i Veb programiranja kreće po završeku osnovnih studija telekomunikacija.
+            Za ova, do sada tri i po meseca vežbanja i bavljenja Web Development-om, pristupio sam najvećoj online open-source zajednici programera otvorenog koda - GitHub i napravio svoja tri sajta. 
             <br/>
-            Prethodna znanja sam imao i Gimnazije Vrnjačka Banja | Infromatički smer. 
-
-            Za ova do sada tri meseca vežbanja i bavljenja Web Development-om, pristupio sam najvećoj online open-source zajednici programera otvorenog koda - GitHub i napravio svoja tri sajta. 
+            Najnoviji projekat na kome radim je njihova integracija u dinamički Veb sajt, sa Back-End-om, koji pokreće Python. 
+            Moj projekat se nalazi na linku aleksandarlukovic.herokuapp.com.
             <br/>
             <br/>
             Sajtove svakodnevno ažuriram, a takođe imam i dosta ideja za dalji rad. 
@@ -64,7 +65,7 @@
 
         </div>
 
-        <div class="telo0_item">
+        <div class="telo0itemC">
 
                 Koristim sledeće programske jezike i programe: 
                 <br/>
@@ -90,10 +91,10 @@
 
         </div>
 
-        <div class="telo0_item">
+        <div class="telo0itemD">
 
                 <br/>
-                Pored aktivnosti koje se odnose na master studije i samostalan rad u oblasti Web Development-a, 
+                Pored aktivnosti koje se odnose na master studije i samostalan rad u oblasti Veb programiranja, 
                 <br/>
                 tražim i pogodnu poziciju za dalje napredovanje i usavršavanje. 
                 <br/>
@@ -105,5 +106,12 @@
         </div>
         
     </div>
+
+    <div class="opisMeni">
+        <a href="{% url 'indexRoot' %}"><li>Nazad na root/</li></a>
+        <a href="{% url 'fakultetProfil' %}"><li>Podaci o fakultetu</li></a>
+        <a href="{% url 'fakultetProfil' %}"><li>Biografija i interesovanja</li></a>
+    </div>
+
 </body>
 </html>

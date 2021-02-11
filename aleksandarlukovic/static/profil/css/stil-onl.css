@@ -3,7 +3,7 @@
 .grid-container
 {
     display: grid; 
-    margin: 0 auto; 
+    margin: 4em auto; 
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr)); 
 }
 
