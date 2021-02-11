@@ -6,56 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aleksandar Luković | Blog</title>
     {% load static %}
+    <link rel="stylesheet" href="{% static 'root/css/zaglavlje.css'%}">
     <link rel="stylesheet" type="text/css" href="{% static 'root/css/aktivnosti.css' %}">
+    <link rel="stylesheet" href="{% static 'root/css/zacelje.css'%}">
+    <link rel= "shortcut icon" href="{% static 'root/img/Pro 2.3.0 17.11.20 Slika1T4.png' %}">
+    
 </head>
 <body>
 
-    <div class="a0">
-        <p>Ovo je dan za pamćenje.</p>
-        <p>Datuma 6. 2. 2021. kreirao sam svoju prvu Python Veb aplikaciju </p>
-        <p>Moja prva Python Veb aplikacija je online. </p>
-        <p>Pesrećan sam. </p>
-        <p>Ovo je tek početak.</p>
-        <p>Ja postajem Web Developer... </p>
-        <p>6. 2. 2021. | 22.14h</p>
-        <p>Aca.</p> 
-    </div>
+    <div class="zaglavlje"> 
+        <p id="txt">Aleksandar Luković | Root Beta </p>
+        
+        <div class="navbar">
 
-    <div class="a1">
-        <p>Ovo je dan za pamćenje.</p>
-        <p>Datuma 8. 2. 2021. (Ponedeljak), počeo sam sa integracijom svih mojih dosadašnjih projekata (sa GitHub-a)
-        <br/> u jedinstveni dinamički Veb sajt </p>
-        <p>Pesrećan sam. </p>
-        <p>Ovo je tek početak.</p>
-        <p>Ja postajem Web Developer... </p>
-        <p>8. 2. 2021. | 16.56h</p>
-        <p>Novi GitHub/root direktorijum i povezivanje sa Heroku-om </p>
-        <p>8. 2. 2021. | 18.23h</p>
-        <p>Aca.</p> 
-    </div>
+           <div class="navbar_item"><a href="{% url 'srProfil' %}">Profil</a></div> 
+           <div class="navbar_item"><a href="{% url 'fakultetProfil' %}">Fakultet</a></div> 
+           <div class="navbar_item"><a href="{%url 'aktivnostiRoot' %}" title="Važni datumi u mom Veb radu">Aktivnosti</a></div> 
+           <div class="navbar_item"><a href="{%url 'opisRoot' %}">Opis</a></div> 
+           <div class="navbar_item"><a href="{%url 'projektiRoot' %}">Veb projekti</a></div> 
+           <div class="navbar_item"><a href="{%url 'kontaktProfil' %}">Kontakt</a></div> 
 
-    <div class="a2">
-        <p>Dan 2.</p>
-        <p>Datum 9. 2. 2021. (Utorak) - Nastavak integracije svih mojih dosadašnjih projekata (sa GitHub-a)
-        <br/> u jedinstveni dinamički Veb sajt </p>
-        <p>9. 2. 2021. | 18.04h</p>
-        <p>Aca.</p> 
-    </div>
+        </div>
 
-    <div class="a3">
-        <p>Dan 3. - Dan za pamćemnje</p>
-        <p>Datum 10. 2. 2021. (Sreda) - Završena integracija svih  dosadašnjih projekata (sa GitHub-a)
-        <br/> u jedinstveni dinamički Veb sajt </p>
-        <p>Sada slede dodatna ažuriranja i poboljšanja navigacije</p>
-        <p>10. 2. 2021. | 11.15h</p>
-        <p>Aca.</p> 
-    </div>
+    </div> 
+
+    <div class="teloA">
+
+        <div class="a0">
+            <p>Ovo je dan za pamćenje.</p>
+            <p>Datuma 6. 2. 2021. kreirao sam svoju prvu Python Veb aplikaciju </p>
+            <p>Moja prva Python Veb aplikacija je online. </p>
+            <p>Pesrećan sam. </p>
+            <p>Ovo je tek početak.</p>
+            <p>Ja postajem Web Developer... </p>
+            <p>6. 2. 2021. | 22.14h</p>
+            <p>Aca.</p> 
+        </div>
+
+        <div class="a1">
+            <p>Ovo je dan za pamćenje.</p>
+            <p>Datuma 8. 2. 2021. (Ponedeljak), počeo sam sa integracijom svih mojih dosadašnjih projekata (sa GitHub-a)
+            <br/> u jedinstveni dinamički Veb sajt </p>
+            <p>Pesrećan sam. </p>
+            <p>Ovo je tek početak.</p>
+            <p>Ja postajem Web Developer... </p>
+            <p>8. 2. 2021. | 16.56h</p>
+            <p>Novi GitHub/root direktorijum i povezivanje sa Heroku-om </p>
+            <p>8. 2. 2021. | 18.23h</p>
+            <p>Aca.</p> 
+        </div>
+
+        <div class="a2">
+            <p>Dan 2.</p>
+            <p>Datum 9. 2. 2021. (Utorak) - Nastavak integracije svih mojih dosadašnjih projekata (sa GitHub-a)
+            <br/> u jedinstveni dinamički Veb sajt </p>
+            <p>9. 2. 2021. | 18.04h</p>
+            <p>Aca.</p> 
+        </div>
+
+        <div class="a3">
+            <p>Dan 3. - Dan za pamćemnje</p>
+            <p>Datum 10. 2. 2021. (Sreda) - Završena integracija svih  dosadašnjih projekata (sa GitHub-a)
+            <br/> u jedinstveni dinamički Veb sajt </p>
+            <p>Sada slede dodatna ažuriranja i poboljšanja navigacije</p>
+            <p>10. 2. 2021. | 11.15h</p>
+            <p>Aca.</p> 
+        </div>
 
 
 
-    <div class="nazadA">
+        <div class="nazadA">
+            <a href="{% url 'indexRoot' %}"><li>Nazad na početnu</li></a>
+        </div>
 
-        <a href="{% url 'indexRoot' %}">Nazad na početnu</a>
-    </div>
+</div>
+
 </body>
 </html>

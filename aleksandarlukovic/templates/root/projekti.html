@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Root | Projekti</title> 
+
     {% load static %}
     <link rel="stylesheet" href="{% static 'root/css/zaglavlje.css'%}">
+    <link rel="stylesheet" href="{% static 'root/css/projekti.css'%}">
     <link rel="stylesheet" href="{% static 'root/css/zacelje.css'%}">
 </head>
 <body>
@@ -15,13 +17,13 @@
         
         <div class="navbar">
 
-           <div class="navbar_item"><a href="index.html" target="_blank">Početna</a></div> 
-           <div class="navbar_item"><a href="https://coapro.github.io/aleksandar/sr.html" target="_blank">Profil</a></div> 
-           <div class="navbar_item"><a href="https://coapro.github.io/aleksandar/fakultet.html" target="_blank">Fakultet</a></div> 
-           <div class="navbar_item"><a href="master.html" target="_blank">Blog</a></div> 
-           <div class="navbar_item"><a href="opis.html" target="_blank">Opis</a></div> 
-           <div class="navbar_item"><a href="projekti.html">Veb projekti</a></div> 
-           <div class="navbar_item"><a href="https://coapro.github.io/aleksandar/kontakt.html" target="_blank">Kontakt</a></div> 
+            <div class="navbar_item"><a href="{% url 'indexRoot' %}">Root</a></div> 
+            <div class="navbar_item"><a href="{% url 'srProfil' %}">Profil</a></div> 
+            <div class="navbar_item"><a href="{% url 'fakultetProfil' %}">Fakultet</a></div> 
+            <div class="navbar_item"><a href="{%url 'aktivnostiRoot' %}" title="Važni datumi u mom Veb radu">Aktivnosti</a></div> 
+            <div class="navbar_item"><a href="{%url 'opisRoot' %}">Opis</a></div> 
+            <div class="navbar_item"><a href="{%url 'projektiRoot' %}">Veb projekti</a></div> 
+            <div class="navbar_item"><a href="{%url 'kontaktProfil' %}">Kontakt</a></div> 
 
         </div>
 
@@ -59,11 +61,12 @@
         </div>
 
         <div class="projektiMeni">
-            <a href="index.html"><li>Nazad na početnu stranicu</li></a>
+            <a href="{% url 'indexRoot' %}"><li>Nazad na root stranicu</li></a>
         </div>
 
   </div> 
 
-  <script src="js/projekti.js"></script>
+  <script src="{% static 'root/js/projekti.js' %}"></script>
+  
 </body>
 </html>

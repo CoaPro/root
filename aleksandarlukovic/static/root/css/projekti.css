@@ -20,7 +20,8 @@
     margin: 0 auto; 
     text-align: center; 
     justify-content: center; 
-    align-items: center; 
+    align-items: center;  
+    margin-bottom: 1em;
 }
 
 .tabelaProjekataA a
@@ -38,5 +39,25 @@
     padding: 0.5em; 
 }
 
+.projektiMeni
+{
+    margin: 0 auto; 
+    width: 15em;
+    color: white;
+    background-color: coral;
+}
+
+.projektiMeni a
+{
+    text-decoration: none; 
+    text-align: center;
+    color: white;
+    padding: 0.2em;
+}
+
+.projektiMeni li
+{
+    list-style: none;
+}
 
 

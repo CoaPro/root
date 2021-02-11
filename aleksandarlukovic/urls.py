@@ -22,6 +22,7 @@ urlpatterns = [
     path('', linkovi.indexRoot, name="indexRoot"),
     path('root/aktivnosti', linkovi.aktivnostiRoot, name="aktivnostiRoot"),
     path('root/opis', linkovi.opisRoot, name="opisRoot"),
+    path('root/projekti', linkovi.projektiRoot, name="projektiRoot"),
     #profil
     path('profil/contact', linkovi.contactProfile, name="contactProfile"),
     path('profil/en', linkovi.enProfile, name="enProfile"),
