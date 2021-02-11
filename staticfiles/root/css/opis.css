@@ -9,14 +9,16 @@
 
 .teloO
 {
-    width: 80%; 
+    width: 60%; 
     min-height: 80vh;
-    margin: 0 auto;
+    margin: 1em auto;
     color: white;
     background-color: #8071d4;  
     text-align: center; 
-    display: grid;  
-    grid-template-columns: 30% 30%;
+    /*display: grid;  
+    grid-template-columns: 45% 45%;*/
+    display: flex;
+    flex-direction: column;
     background-color: rgb(98, 150, 219); 
     -webkit-box-shadow: 2px -1px 33px -20px rgba(0,0,0,0.67);
     justify-content: center; 
@@ -24,12 +26,71 @@
     padding-bottom: 2em; 
 }
 
+.telo0item img
+{
+    width: 20em; 
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.telo0item img:hover
+{
+    opacity: 0.7;
+    width: 20em; 
+    border-radius: 50%;
+    border: 6px solid rgb(53, 98, 180);
+    transform: rotateY(180deg);  
+}
+
+ .telo0itemA, .telo0itemB, .telo0itemC, .telo0itemD
+{
+    width: 40%;
+    margin: 0.5em auto; 
+    padding: 1.5em;
+}
+
+.telo0itemA {background-color: rgb(53, 98, 180);}
+.telo0itemB {background-color: rgb(38, 184, 147);}
+.telo0itemC {background-color: rgb(194, 165, 35);}
+.telo0itemD {background-color: rgb(180, 136, 53);}
+
+.opisMeni
+{
+    margin: 1em auto;
+    width: 15em;
+    background-color: springgreen; 
+    text-align: center;
+}
+
+.opisMeni a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.opisMeni li
+{
+    padding: 0.3rem;
+    list-style: none;
+}
+
+.opisMeni li:hover
+{
+    opacity: 0.7;
+}
+
 @media screen and (max-width: 720px)
 {
-    .telo0
+    .teloO
     {
-        width: 90vw; 
-        grid-template-columns: 40% 40%; 
+        width: 97%; 
+    }
+
+    .telo0itemA, .telo0itemB, .telo0itemC, .telo0itemD
+    {
+        width: 81%;
+        margin: 0.5em auto; 
+        padding: 1.5em;
     }
 
 }

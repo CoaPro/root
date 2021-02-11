@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{% static 'root/css/zaglavlje.css'%}">
     <link rel="stylesheet" href="{% static 'root/css/pocetna.css'%}">
     <link rel="stylesheet" href="{% static 'root/css/zacelje.css'%}">
-    <link rel= "shortcut icon" href="{% static 'root/img/Pro 2.3.0 17.11.20 Slika1T4.png' %}">
+    <link rel= "shortcut icon" href="{% static 'root/ico/Coa Pro 25aaa3.png' %}">
 
 </head>
 <body>
@@ -21,7 +21,7 @@
             <div class="navbar_item"><a href="{% url 'srProfil' %}" title="Moja online biografija">Profil</a></div> 
             <div class="navbar_item"><a href="{% url 'fakultetProfil' %}" title="Fakultet, studije, inženjerstvo">Fakultet</a></div> 
             <div class="navbar_item"><a href="{%url 'aktivnostiRoot' %}" title="Važni datumi u mom Veb radu">Aktivnosti</a></div> 
-            <div class="navbar_item"><a href="{%url 'opisRoot' %}" title="O meni">O meni</a></div> 
+            <div class="navbar_item"><a href="{%url 'opisRoot' %}" title="O meni">Opis</a></div> 
             <div class="navbar_item"><a href="{%url 'projektiRoot' %}" title="Moji Veb projekti">Veb projekti</a></div> 
             <div class="navbar_item"><a href="{%url 'kontaktProfil' %}" title="E-mail kontakt">Kontakt</a></div> 
 
@@ -51,5 +51,42 @@
         </div>
 
     </div>
+
+    <div class="zacelje"> 
+        
+        <div class="autorskaPrava">
+    
+            © 2021 Aleksandar Luković | Sva prava zadržana.
+            <br/>
+            Kodovano sa srcem. 
+            
+        </div>
+    
+        <div class="zacelje_c">
+    
+    
+            <div class="zacelje_i">
+                <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="{% static 'telekomunikacije/ico/linkedin.svg' %}" title="Aleksandar Luković | LinkedIn"></img> </a>
+            </div>
+    
+            <div class="zacelje_i">
+                <a href="https://github.com/CoaPro" target="_blank"><img src="{% static 'telekomunikacije/ico/github.svg' %}" title="Aleksandar Luković | GitHub"></img> </a>
+            </div>
+    
+            <div class="zacelje_i">
+                <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="{% static 'telekomunikacije/ico/facebook.svg' %}" title="Aleksandar Luković | Facebook"></img> </a> 
+            </div>
+    
+            <div class="zacelje_i">
+                <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="{% static 'telekomunikacije/ico/instagram.svg' %}" title="Aleksandar Luković | Instagram"></img> </a>
+            </div>
+    
+            <div class="zacelje_i">
+                <a href="https://www.youtube.com/CoaPro/" target="_blank"><img src="{% static 'telekomunikacije/ico/youtube.svg' %}" title="Aleksandar Luković | YouTube"></img> </a>
+            </div>
+    
+        </div>
+    </div> 
+    
 </body>
 </html>

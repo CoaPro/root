@@ -16,14 +16,13 @@
         
         <div class="navbar">
 
-            <div class="navbar_item"><a href="index.html" target="_blank">Početna</a></div> 
-            <div class="navbar_item"><a href="osnovne.html" target="_blank">Osnovne studije</a></div> 
-            <div class="navbar_item"><a href="master.html" target="_blank">Master studije</a></div> 
-            <div class="navbar_item"><a href="master.html" target="_blank">Predmeti na masteru</a></div> 
-            <div class="navbar_item"><a href="master.html" target="_blank">Završeni radovi na masteru</a></div> 
-            <div class="navbar_item"><a href="https://coapro.github.io/aleksandar/sr.html" target="_blank">O meni</a></div> 
-            <div class="navbar_item"><a href="https://github.com/CoaPro" target="_blank">Veb projekti</a></div> 
-            <div class="navbar_item"><a href="https://coapro.github.io/aleksandar/kontakt.html" target="_blank">Kontakt</a></div> 
+            <div class="navbar_item"><a href="{%url 'indexRoot' %}">Root</a></div> 
+            <div class="navbar_item"><a href="{% url 'osnovneTS' %}">Osnovne studije</a></div> 
+            <div class="navbar_item"><a href="{% url 'masterTS' %}">Master studije</a></div> 
+            <div class="navbar_item"><a href="{% url 'masterTS' %}">Završeni radovi na masteru</a></div> 
+            <div class="navbar_item"><a href="{% url 'profilProfil' %}">O meni</a></div> 
+            <div class="navbar_item"><a href="{% url 'projektiRoot' %}">Veb projekti</a></div> 
+            <div class="navbar_item"><a href="{% url 'kontaktProfil' %}">Kontakt</a></div> 
  
          </div>
     </div> 

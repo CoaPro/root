@@ -26,7 +26,23 @@
     padding-bottom: 2em; 
 }
 
-.telo0itemA, .telo0itemB, .telo0itemC, .telo0itemD
+.telo0item img
+{
+    width: 20em; 
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.telo0item img:hover
+{
+    opacity: 0.7;
+    width: 20em; 
+    border-radius: 50%;
+    border: 6px solid rgb(53, 98, 180);
+    transform: rotateY(180deg);  
+}
+
+ .telo0itemA, .telo0itemB, .telo0itemC, .telo0itemD
 {
     width: 40%;
     margin: 0.5em auto; 

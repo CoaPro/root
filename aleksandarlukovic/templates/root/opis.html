@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{% static 'root/css/zaglavlje.css'%}">
     <link rel="stylesheet" href="{% static 'root/css/opis.css'%}">
     <link rel="stylesheet" href="{% static 'root/css/zacelje.css'%}">
-
+    <link rel= "shortcut icon" href="{% static 'root/ico/Coa Pro 25aaa3.png' %}">
 </head>
 <body>
 
@@ -17,11 +17,11 @@
         
         <div class="navbar">
             
-            <div class="navbar_item"><a href="{% url 'indexRoot' %}" target="Početna stranica">Root</a></div> 
+            <div class="navbar_item"><a href="{% url 'indexRoot' %}" title="Početna stranica">Root</a></div> 
             <div class="navbar_item"><a href="{% url 'srProfil' %}" title="Moja online biografija">Profil</a></div> 
             <div class="navbar_item"><a href="{% url 'fakultetProfil' %}" title="Fakultet, studije, inženjerstvo">Fakultet</a></div> 
             <div class="navbar_item"><a href="{%url 'aktivnostiRoot' %}" title="Važni datumi u mom Veb radu">Aktivnosti</a></div> 
-            <div class="navbar_item"><a href="{%url 'opisRoot' %}" title="O meni">O meni</a></div> 
+            <div class="navbar_item"><a href="{%url 'opisRoot' %}" title="O meni">Opis</a></div> 
             <div class="navbar_item"><a href="{%url 'projektiRoot' %}" title="Moji Veb projekti">Veb projekti</a></div> 
             <div class="navbar_item"><a href="{%url 'kontaktProfil' %}" title="E-mail kontakt">Kontakt</a></div> 
 
@@ -31,6 +31,10 @@
 
     <div class="teloO">
         
+       <div class="telo0item">
+        <img src="{% static 'root/img/Coa Pro 25aaa3r.png' %}">
+       </div>
+
         <div class="telo0itemA">
 
                 Ja sam Aleksandar Luković. Rođen sam 1997. i imam 23 godine. 
@@ -109,9 +113,46 @@
 
     <div class="opisMeni">
         <a href="{% url 'indexRoot' %}"><li>Nazad na root/</li></a>
+        <a href="{% url 'profilProfil' %}"><li>Biografija i interesovanja</li></a>
         <a href="{% url 'fakultetProfil' %}"><li>Podaci o fakultetu</li></a>
-        <a href="{% url 'fakultetProfil' %}"><li>Biografija i interesovanja</li></a>
     </div>
+
+    <div class="zacelje"> 
+        
+        <div class="autorskaPrava">
+    
+            © 2021 Aleksandar Luković | Sva prava zadržana.
+            <br/>
+            Kodovano sa srcem. 
+            
+        </div>
+    
+        <div class="zacelje_c">
+    
+    
+            <div class="zacelje_i">
+                <a href="https://www.linkedin.com/in/aleksandar-lukovic" target="_blank"><img src="{% static 'telekomunikacije/ico/linkedin.svg' %}" title="Aleksandar Luković | LinkedIn"></img> </a>
+            </div>
+    
+            <div class="zacelje_i">
+                <a href="https://github.com/CoaPro" target="_blank"><img src="{% static 'telekomunikacije/ico/github.svg' %}" title="Aleksandar Luković | GitHub"></img> </a>
+            </div>
+    
+            <div class="zacelje_i">
+                <a href="https://web.facebook.com/ALh4x0r997/" target="_blank"><img src="{% static 'telekomunikacije/ico/facebook.svg' %}" title="Aleksandar Luković | Facebook"></img> </a> 
+            </div>
+    
+            <div class="zacelje_i">
+                <a href="https://www.instagram.com/coa.pro/" target="_blank"><img src="{% static 'telekomunikacije/ico/instagram.svg' %}" title="Aleksandar Luković | Instagram"></img> </a>
+            </div>
+    
+            <div class="zacelje_i">
+                <a href="https://www.youtube.com/CoaPro/" target="_blank"><img src="{% static 'telekomunikacije/ico/youtube.svg' %}" title="Aleksandar Luković | YouTube"></img> </a>
+            </div>
+    
+        </div>
+    </div> 
+
 
 </body>
 </html>

@@ -1,10 +1,16 @@
-.a0, .a1, .a2 .a3
+.teloA
 {
+    margin-top: 1em;
+}
+
+.a0, .a1, .a2, .a3
+{   
+    padding: 1em;
     color: white;
     width: 23em;
-    margin: 0 auto; 
+    margin: 0em auto; 
     text-align: center; 
-    padding: 1em;
+    
 }
 
 .a0 {background-color: yellowgreen; }
@@ -14,7 +20,7 @@
 
 .nazadA
 {
-    margin: 0 auto; 
+    margin: 1em auto; 
     width: 12em;
     padding: 0.4em;
     background-color: rgb(71, 120, 255);
@@ -24,4 +30,9 @@
 {
     color: white;
     text-decoration: none;
+}
+
+.nazadA li
+{
+    list-style: none;
 }

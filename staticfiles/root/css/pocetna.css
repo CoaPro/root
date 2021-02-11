@@ -21,6 +21,7 @@
 
 .itemI
 {
+    margin: 0 auto; 
     margin-top: 3em; 
 }
 
@@ -40,14 +41,16 @@
 
 .itemI button
 {
+    margin: 0 auto;
     margin-top: 2em;
     background-color: cornflowerblue; 
-    text-align: center; 
     text-decoration: none;  
     padding: 0.5em;
     border: none; 
     border-radius: 20px; 
+    width: 10em; 
 }
+
 
 .itemI:hover
 {
