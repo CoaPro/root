@@ -41,6 +41,23 @@
     padding-left: 2em;
 }
 
+
+@keyframes opisNav
+{
+    0% 
+    {
+
+    }
+    50%
+    {
+
+    }
+    100%
+    {
+
+    }
+}
+
 @media screen and (max-width: 720px)
 {
 
