@@ -3,7 +3,7 @@
     margin-top: 1em;
 }
 
-.a0, .a1, .a2, .a3
+.a0, .a1, .a2, .a3, .a4
 {   
     padding: 1em;
     color: white;
@@ -17,6 +17,7 @@
 .a1 {background-color: rgb(99, 138, 21); }
 .a2 {background-color: rgb(206, 179, 27); }
 .a3 {background-color: rgb(238, 206, 23); }
+.a4 {background-color: rgb(23, 152, 238); }
 
 .nazadA
 {
