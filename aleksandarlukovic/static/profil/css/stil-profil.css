@@ -154,10 +154,29 @@ main {
     width: 9em;
     padding: 0.2em;
     animation-name: profilNovo; 
+    
+    /*
     animation-duration: 2s; 
     animation-iteration-count: infinite; 
+    */
+
+    border-radius: 10px;  
+    color: white; 
+    background-color: #0072bc; 
+    transition-duration: 1s; 
+    transition-timing-function: ease;
+
 }
 
+#profilNovo:hover
+{
+    width: 11em;
+    color: #0072bc; 
+    background-color: whitesmoke; 
+    border: 2px solid white; 
+}
+
+/*
 @keyframes profilNovo
 {
     0%
@@ -181,6 +200,7 @@ main {
         border-radius: 10px; 
     }
 }
+*/
 
 #heroku_a 
 {
