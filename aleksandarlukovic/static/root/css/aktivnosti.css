@@ -3,14 +3,14 @@
     margin-top: 1em;
 }
 
-.a0, .a1, .a2, .a3, .a4, .a5, .a6
+.a0, .a1, .a2, .a3, .a4, .a5, .a6, .a7
 {   
     padding: 1em;
     color: white;
     width: 23em;
     margin: 0em auto; 
     text-align: center; 
-    
+
 }
 
 .a0 {background-color: yellowgreen; }
@@ -20,6 +20,16 @@
 .a4 {background-color: rgb(23, 152, 238); }
 .a5 {background-color: rgb(238, 234, 23); }
 .a6 {background-color: rgb(34, 189, 104); }
+.a7 {background-color: rgb(29, 71, 207);}
+
+/*1.7.2021. */
+
+.a0 a, .a1 a, .a2 a, .a3 a, .a4 a, .a5 a, .a6 a, .a7 a
+{   
+    text-decoration: underline; 
+    color: white;     
+}
+
 .nazadA
 {
     margin: 1em auto; 
