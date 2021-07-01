@@ -12,13 +12,13 @@
 
 ---
 
-[Profil](https://aleksandarlukovic.herokuapp.com/profil/profil)
-[Fakultet](https://aleksandarlukovic.herokuapp.com/profil/fakultet)
-[Telekomunikacije](https://aleksandarlukovic.herokuapp.com/telekomunikacije)
-[Osnovne akademske studije](https://aleksandarlukovic.herokuapp.com/telekomunikacije/osnovne)
-[Master akademske studije](https://aleksandarlukovic.herokuapp.com/telekomunikacije/master)
-[Radovi sa master studija](https://aleksandarlukovic.herokuapp.com/telekomunikacije/master)
-[Biografija 1](https://aleksandarlukovic.herokuapp.com/profil/profil)
+[Profil](https://aleksandarlukovic.herokuapp.com/profil/profil) | 
+[Fakultet](https://aleksandarlukovic.herokuapp.com/profil/fakultet) | 
+[Telekomunikacije](https://aleksandarlukovic.herokuapp.com/telekomunikacije) | 
+[Osnovne akademske studije](https://aleksandarlukovic.herokuapp.com/telekomunikacije/osnovne) | 
+[Master akademske studije](https://aleksandarlukovic.herokuapp.com/telekomunikacije/master) | 
+[Radovi sa master studija](https://aleksandarlukovic.herokuapp.com/telekomunikacije/master) | 
+[Biografija 1](https://aleksandarlukovic.herokuapp.com/profil/profil) | 
 [Biografija 2](https://aleksandarlukovic.herokuapp.com/root/opis)
 
 ---
