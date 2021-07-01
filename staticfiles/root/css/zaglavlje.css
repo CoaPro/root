@@ -9,7 +9,8 @@
 
 .zaglavlje
 {
-    background-color: #422cba; 
+    /* background-color: #422cba; */
+    background-color: #272c35; 
     color: white; 
     height: 23vh; 
     border-bottom: 3px solid #0fb5df;
@@ -39,6 +40,23 @@
 .navbar_item
 {
     padding-left: 2em;
+}
+
+
+@keyframes opisNav
+{
+    0% 
+    {
+
+    }
+    50%
+    {
+
+    }
+    100%
+    {
+
+    }
 }
 
 @media screen and (max-width: 720px)

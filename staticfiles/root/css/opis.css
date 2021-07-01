@@ -24,6 +24,12 @@
     justify-content: center; 
     padding-top: 2em; 
     padding-bottom: 2em; 
+    border-radius: 40px;
+}
+.teloO a
+{
+    color: rgb(50, 51, 61);
+    text-decoration: none;
 }
 
 .telo0item img
@@ -42,7 +48,7 @@
     transform: rotateY(180deg);  
 }
 
- .telo0itemA, .telo0itemB, .telo0itemC, .telo0itemD
+ .telo0itemA, .telo0itemB, .telo0itemC, .telo0itemD, .telo0item1
 {
     width: 40%;
     margin: 0.5em auto; 
@@ -51,8 +57,9 @@
 
 .telo0itemA {background-color: rgb(53, 98, 180);}
 .telo0itemB {background-color: rgb(38, 184, 147);}
-.telo0itemC {background-color: rgb(194, 165, 35);}
-.telo0itemD {background-color: rgb(180, 136, 53);}
+.telo0itemC {background-color: rgb(224, 211, 20);}
+.telo0itemD {background-color: rgb(37, 111, 207);}
+.telo0item1 {background-color: rgb(8, 83, 83);}
 
 .opisMeni
 {

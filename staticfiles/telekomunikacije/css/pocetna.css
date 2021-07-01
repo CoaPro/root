@@ -71,6 +71,34 @@
     opacity: 0.7;
 } 
 
+
+.telekomunikacijeMeni
+{
+    width: 15em;
+    margin: 0 auto; 
+    text-align: center; 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.telekomunikacijeMeni a
+{
+    color: white;
+    text-decoration: none;   
+}
+
+.telekomunikacijeMeni li
+{   
+    background-color: chartreuse;
+    list-style: none; 
+    padding: 0.6em; 
+}
+
+.telekomunikacijeMeni li:hover
+{
+    opacity: 0.7;
+}
+
 @media screen and (max-width: 720px)
 {
     .studije  

@@ -43,6 +43,8 @@
     display: flex; 
     flex-direction: column; 
     margin-top: 1em; 
+    width: 55em; 
+    margin: 0 auto; 
 }
 
 .itemBez

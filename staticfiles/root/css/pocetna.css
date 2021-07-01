@@ -34,7 +34,7 @@
 
 .itemI p
 {
-    width: 5em; 
+    width: 10em; 
     margin: 0 auto; 
     text-align: center; 
 }
@@ -43,16 +43,18 @@
 {
     margin: 0 auto;
     margin-top: 2em;
-    background-color: cornflowerblue; 
+    /* background-color: cornflowerblue; */
+    background-color: #282c34;
     text-decoration: none;  
     padding: 0.5em;
     border: none; 
     border-radius: 20px; 
     width: 10em; 
+    color: white;
 }
 
 
-.itemI:hover
+.itemI img:hover
 {
     opacity: 0.7;
     /*
@@ -61,6 +63,12 @@
     */
 }
 
+.itemI button:hover
+{
+    opacity: 0.5;
+    background-color: cornflowerblue; 
+    border: 1px solid rgb(5, 122, 58);
+}
 
 
 @media screen and (max-width: 1000px)

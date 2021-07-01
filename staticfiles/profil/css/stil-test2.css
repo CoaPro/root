@@ -179,3 +179,48 @@ main {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* */
 }
+
+/*Novo 11. 2. 2021. */
+
+#profilNovoF
+{
+    width: 9em;
+    padding: 0.2em;
+    animation-name: profilNovo; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes profilNovoF
+{
+    0%
+    {
+        border-radius: 10px;  
+        color: white; 
+        background-color: #0072bc; 
+    }
+
+    100%
+    {
+        color: #4995c7; 
+        background-color: white; 
+        border-radius: 10px; 
+    }
+    
+    100%
+    {
+        color: #0072bc; 
+        background-color: white; 
+        border-radius: 10px; 
+    }
+}
+
+@media screen and (max-width: 720px)
+{
+
+    .grid-container
+    {
+        margin-top: 8em;
+    }
+
+}
